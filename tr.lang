@@ -1,0 +1,2262 @@
+# === assetEditor ===
+assetEditor.mainMenu.connection.connecting = Sunucuya baglaniyor...
+assetEditor.mainMenu.connection.authenticating = Kimlik dogrulaniyor...
+assetEditor.mainMenu.title = Editoru Ac
+assetEditor.mainMenu.cosmeticsEditor = Kozmetikler
+assetEditor.mainMenu.servers = Sunucular
+assetEditor.mainMenu.disconnectionContainer.title = Sunucudan baglanti kesildi!
+assetEditor.mainMenu.disconnectionContainer.reconnect = Yeniden Baglan
+assetEditor.mainMenu.connection.error.failedAuthentication = Sunucu ile kimlik dogrulama basarisiz oldu
+assetEditor.mainMenu.connection.error.failedToEstablishConnection = Sunucuya baglanti kurulamadi
+assetEditor.mainMenu.settingsButton = Ayarlar
+
+assetEditor.settings.title = Ayarlar
+
+assetEditor.settings.setting.diagnosticMode = Tanilama Modu
+assetEditor.settings.setting.useSystemLanguage = Sistem Dilini Kullan
+assetEditor.settings.setting.language = Dil
+assetEditor.settings.setting.fullscreen = Tam Ekran
+assetEditor.settings.setting.exportPath = Disa Aktarma Klasoru
+assetEditor.settings.setting.exportPath.dialogTitle = Bir Disa Aktarma Klasoru Secin
+assetEditor.settings.setting.exportPath.dialogConfirmationButton = Disa Aktarma Klasoru Olarak Sec
+
+assetEditor.mainMenu.errors.failedToSaveServerList = Sunucu listesi kaydedilemedi
+
+assetEditor.mainMenu.serverModal.titleAdd = Sunucu Ekle
+assetEditor.mainMenu.serverModal.titleEdit = Sunucu Duzenle
+assetEditor.mainMenu.serverModal.errors.enterName = Lutfen bir isim girin
+assetEditor.mainMenu.serverModal.errors.enterHostname = Lutfen bir hostname girin
+assetEditor.mainMenu.serverModal.errors.nameAlreadyInUse = Bu isim zaten kullaniliyor.
+
+assetEditor.mainMenu.removeServerModal.title = "{serverName}" sunucusunu listeden kaldir?
+
+assetEditor.ipcServerConfirmation.title = Sunucuya Baglan?
+assetEditor.ipcServerConfirmation.description = Bu sunucudan baglantiyi kesip "{serverName}" sunucusuna baglanmak istiyor musunuz?
+
+assetEditor.assetBrowser.searchAssetsPlaceholder = Varliklari Ara
+assetEditor.assetBrowser.findAsset = Varlik Bul
+assetEditor.assetBrowser.delete = Sil
+assetEditor.assetBrowser.rename = Yeniden Adlandir
+assetEditor.assetBrowser.duplicate = Kopyala
+assetEditor.assetBrowser.findInFolder = Klasorde Bul
+assetEditor.assetBrowser.copyPath = Yolu Kopyala
+assetEditor.assetBrowser.showInFinder = Finder'da Goster
+assetEditor.assetBrowser.showInExplorer = Explorer'da Goster
+assetEditor.assetBrowser.createInFolder = Klasorde {assetType} Olustur
+assetEditor.assetBrowser.createAssetInFolder = Klasorde Varlik Olustur
+assetEditor.assetBrowser.createFolder = Klasor Olustur
+assetEditor.assetBrowser.create = {assetType} Olustur
+assetEditor.assetBrowser.tabs.cosmetics = Kozmetikler
+assetEditor.assetBrowser.tabs.server = Sunucu
+assetEditor.assetBrowser.tabs.common = Ortak
+assetEditor.assetBrowser.tooltips.collapseAll = Tum klasorleri daralt
+assetEditor.assetBrowser.tooltips.createNewAsset = Yeni bir varlik olustur
+assetEditor.assetBrowser.tooltips.filter = Filtre
+assetEditor.assetBrowser.export = Varligi Disa Aktar
+assetEditor.assetBrowser.exportAndDiscard = Varligi Disa Aktar ve Iptal Et
+assetEditor.assetBrowser.discard = Degisiklikleri Iptal Et
+
+assetEditor.changeConfirmationModal.title = Onay gerekli
+assetEditor.changeConfirmationModal.text = Bu degeri degistirmek bazi mevcut ozellikleri kaldiracak.
+
+assetEditor.assetReferenceOrInlineEditor.useExisting = Mevcut Olani Referans Al
+assetEditor.assetReferenceOrInlineEditor.createEmbedded = Gomulu Olustur
+assetEditor.assetReferenceOrInlineEditor.reference = {assetType} Referansi
+
+assetEditor.assetDropdownEditor.openAssetTooltip = Varligi yeni sekmede ac
+assetEditor.assetDropdownEditor.createAssetTooltip = Yeni {assetType} olustur ve ata
+
+assetEditor.listEditor.empty = Bu liste bos
+assetEditor.listEditor.header = {count} Liste Girisi
+assetEditor.mapEditor.empty = Bu harita bos
+assetEditor.mapEditor.header = {count} Harita Girisi
+
+assetEditor.jsonObjectEditor.json = JSON
+assetEditor.jsonObjectEditor.jsonParseError = JSON: Ayrıstırma basarisiz
+
+assetEditor.changelogModal.newVersion = Yeni
+assetEditor.changelogModal.title = Yenilikler
+
+assetEditor.backends.local = Duzenleniyor: Yerel Varliklar
+assetEditor.backends.server = Duzenleniyor: Sunucu Varliklari
+assetEditor.backends.tooltip = Disa aktarma klasorunu acmak icin tiklayin
+
+assetEditor.mode.editor = Editor
+assetEditor.mode.source = Kaynak
+
+assetEditor.editor.searchProperties = Ozellikleri Ara
+
+assetEditor.property.title = Ozellik "{name}"
+assetEditor.property.remove = Kaldir
+assetEditor.property.renameKey = Anahtari Yeniden Adlandir
+assetEditor.property.moveDown = Asagi Tası
+assetEditor.property.moveUp = Yukari Tası
+assetEditor.property.createEmbeddedAsset = Gomulu Varliga Donustur
+assetEditor.property.createDedicatedAsset = Ozel Varliga Donustur
+assetEditor.property.collapseAllEntries = Tum Girisleri Daralt
+assetEditor.property.uncollapseAllEntries = Tum Girisleri Genislet
+assetEditor.property.openAssetInNewTab = Varligi Yeni Sekmede Ac
+assetEditor.property.copyAndReferenceAsset = Varligi Kopyala ve Referans Al
+assetEditor.property.createAndReferenceAsset = Varlik Olustur ve Referans Al
+assetEditor.property.insertSiblingBefore = Once Kardeş Ekle
+assetEditor.property.insertSiblingAfter = Sonra Kardeş Ekle
+assetEditor.property.list = Liste
+assetEditor.property.map = Harita
+assetEditor.property.copyValue = Degeri Kopyala
+assetEditor.property.pasteValue = Degeri Yapistir
+assetEditor.property.map.insertLabel = Ekle
+assetEditor.property.errors.keyAlreadyExists = Bu anahtar zaten kullaniliyor
+
+assetEditor.property.tooltip.arrayItem = Indeks: {index}
+assetEditor.property.tooltip.mapItem = Anahtar: {key}
+assetEditor.property.tooltip.inheritedProperty = {asset} => {value} varligindan miras alindi
+assetEditor.property.tooltip.listEntries = {count} Liste Girisi
+assetEditor.property.tooltip.objectEntries = {count} Nesne Girisi
+
+assetEditor.configEditor.button.collapseAll = Tumunu Daralt
+assetEditor.configEditor.button.expandAll = Tumunu Genislet
+assetEditor.configEditor.button.showDefinedProperties = Toggle: Sadece Tanimli Ozellikleri Goster
+assetEditor.configEditor.button.quickInspect = Hizli Inceleme
+
+assetEditor.sourceEditor.apply = Degisiklikleri Uygula
+assetEditor.sourceEditor.discard = Degisiklikleri Iptal Et
+assetEditor.sourceEditor.unsavedChangesModal.title = Kaydedilmemis Degisiklikler
+assetEditor.sourceEditor.unsavedChangesModal.text = Kod editorunde kaydedilmemis degisiklikler var. Devam etmek istediginize emin misiniz?
+assetEditor.sourceEditor.unsavedChangesModal.discardChanges = Degisiklikleri Iptal Et
+
+assetEditor.assetSelector.findAsset = Varlik Bul...
+
+assetEditor.fileSelector.placeholder = Bir Dosya Secin
+assetEditor.fileSelector.filesSelected = {count} Dosya Secildi
+assetEditor.fileSelector.findFile = Dosya Bul...
+assetEditor.fileSelector.createDirectory = Klasor Olustur
+assetEditor.fileSelector.newDirectoryNamePlaceholder = Yeni Klasor Adi...
+
+assetEditor.timelineEditor.insertAt = {hour} saatinde deger ekle
+assetEditor.timelineEditor.updateAt = Saat: {hour}\n\
+\n\
+Kaldirmak icin sag tiklayin
+
+assetEditor.modal.applyChangesLocally = Degisikligi yerel olarak da uygula
+
+assetEditor.deleteAssetModal.title = Varlik Silinsin mi?
+assetEditor.deleteAssetModal.text = "{assetId}" varligini silmek istediginize emin misiniz?
+assetEditor.deleteAssetModal.confirmButton = Sil
+
+assetEditor.deleteDirectoryModal.title = Klasor Silinsin mi?
+assetEditor.deleteDirectoryModal.text = "{path}" klasorunu silmek istediginize emin misiniz?
+assetEditor.deleteDirectoryModal.confirmButton = Sil
+
+assetEditor.keyModal.renameTitle = Anahtari Yeniden Adlandir
+assetEditor.keyModal.insertTitle = Anahtar Ekle
+assetEditor.keyModal.renameButton = Yeniden Adlandir
+assetEditor.keyModal.insertButton = Ekle
+assetEditor.keyModal.errors.existingKey = Bu anahtara sahip bir giris zaten var!
+assetEditor.keyModal.errors.invalidProperty = Gecersiz ozellik
+assetEditor.keyModal.errors.fieldEmpty = Lutfen yeni bir anahtar girin!
+
+assetEditor.iconExporterModal.export = Ikonu Kaydet
+assetEditor.iconExporterModal.reset = Varsayilanlara Sifirla
+assetEditor.iconExporterModal.previewZoom = Onizleme Yakınlastirma
+assetEditor.iconExporterModal.rotationX = X Ekseni Donusu
+assetEditor.iconExporterModal.rotationY = Y Ekseni Donusu
+assetEditor.iconExporterModal.rotationZ = Z Ekseni Donusu
+assetEditor.iconExporterModal.translationX = X Konumu
+assetEditor.iconExporterModal.translationY = Y Konumu
+assetEditor.iconExporterModal.scale = Olcek
+assetEditor.iconExporterModal.errors.invalidConfig = Bu oge onizleme olusturmak icin duzgun sekilde ayarlanmamis
+
+assetEditor.renameModal.titleAsset = Varligi Yeniden Adlandir
+assetEditor.renameModal.titleFolder = Klasoru Yeniden Adlandir
+assetEditor.renameModal.renameButton = Yeniden Adlandir
+assetEditor.renameModal.newId = Yeni Id
+assetEditor.renameModal.newName = Yeni Isim
+assetEditor.renameModal.errors.invalidId = Lutfen gecerli bir id girin. Bir ID sadece harf ve rakam icerebilir, ayrica belirli id kategorilerini isaretlemek icin _ kullanilabilir.
+assetEditor.renameModal.warning = Uyari: Bir varligi yeniden adlandirmak, diger JSON dosyalarindaki referanslari degistirmez. Bu islem diger varliklari bozabilir.
+
+assetEditor.idValidation.empty = Id alani bos olamaz
+assetEditor.idValidation.minLength = Bir id en az {count} karakterden olusmalidir
+assetEditor.idValidation.maxLength = Bir id {count} karakterden fazla olamaz
+assetEditor.idValidation.onlyLettersAndDigits = Bir id sadece harf ve rakam icerebilir
+assetEditor.idValidation.firstUppercase = Bir id'in ilk harfi veya alt cizgiden sonraki harf buyuk olmalidir
+assetEditor.idValidation.firstLetter = Bir id'in ilk karakteri veya alt cizgiden sonraki karakter bir harf olmalidir
+assetEditor.idValidation.underscoreEmpty = Bir id alt cizgi ile baslayamaz veya bitemez ve bir alt cizgi baska bir alt cizgi ile takip edilemez
+
+assetEditor.createAssetModal.title = Yeni {assetType} varligi olustur
+assetEditor.createAssetModal.assetPack = Varlik Paketi
+assetEditor.createAssetModal.assetType = Varlik Tipi
+assetEditor.createAssetModal.folder = Klasor
+assetEditor.createAssetModal.assetId = Benzersiz Varlik ID
+assetEditor.createAssetModal.assetIdHelp = Izin verilen karakterler: A-Z 0-9 _\\
+Ornekler: Wood_Ash_Roots, Zone3_Cloudy_Medium, Battleaxe_Swing_Left
+assetEditor.createAssetModal.copyAsset = Varligi Kopyala
+assetEditor.createAssetModal.tab.properties = Ozellikler
+assetEditor.createAssetModal.tab.source = Kaynak
+assetEditor.createAssetModal.createButton = Olustur
+assetEditor.createAssetModal.assetPackDropdown.noEntries = Once yeni bir Varlik Paketi olusturun
+assetEditor.createAssetModal.errors.existingId = Bu id'ye sahip bir varlik zaten var!
+assetEditor.createAssetModal.errors.invalidAssetType = Gecersiz varlik tipi
+assetEditor.createAssetModal.errors.noAssetPackSelected = Varligin olusturulacagi bir varlik paketi secilmelidir
+
+assetEditor.exportModal.title = Son Duzenlenen Varliklar
+assetEditor.exportModal.deselectAllButton = Tumunu Secimi Kaldir
+assetEditor.exportModal.selectAllButton = Tumunu Sec
+assetEditor.exportModal.exportButton = Secimi Disa Aktar
+assetEditor.exportModal.launcherAssetsWarning = Launcher'dan varliklar kullanilirken varliklar disa aktarilamaz!
+assetEditor.exportModal.discardChangesModal.title = Degisiklikler Iptal Edilsin mi?
+assetEditor.exportModal.discardChangesModal.text = {assetId} ({assetType}) degisikliklerini iptal et
+assetEditor.exportModal.discardChangesModal.confirmButton = Degisiklikleri Iptal Et
+assetEditor.exportModal.discardChangesCheckBox = Disa aktarmadan sonra sunucudaki degisiklikleri iptal et
+assetEditor.exportModal.discardChangesCheckBoxDescription = Bu secenek aktifse, secilen varliklarin orijinal durumu, bu varliklarin assets klasorunden tekrar yuklenmesiyle sunucuda geri yuklenecektir. Bu, belirli varliklar uzerindeki calisma tamamlandiginda ve bir depoya gonderilmeye hazir oldugunda kullanislidir, cunku bu dosyalar bu listeden kaldirilacaktir. Sunucu ve istemci ayni varlik klasorunu paylasiyorsa (ornegin Tek Oyunculu Mod'da), bu secenek sadece yukaridaki listeden bu girileri kaldirir.
+assetEditor.exportModal.discardButtonTooltip = Degisiklikleri Iptal Et
+assetEditor.exportModal.columns.file = Dosya
+assetEditor.exportModal.columns.lastChangeDate = Son Degisiklik
+assetEditor.exportModal.columns.lastChangeUsername = Tarafindan
+assetEditor.exportModal.tooltips.deleted = Varlik silindi
+assetEditor.exportModal.tooltips.new = Varlik olusturuldu
+assetEditor.exportModal.tooltips.renamed = Varlik {oldPath} adindan yeniden adlandirildi
+assetEditor.exportModal.tooltips.changed = Varlik degistirildi
+
+assetEditor.filterModal.title = Varlik tiplerine gore filtrele
+assetEditor.filterModal.searchPlaceholder = Varlik Tiplerini Ara
+
+assetEditor.iconMassExportModal.title = Esya Ikonu Toplu Disa Aktarma
+assetEditor.iconMassExportModal.startButton = Disa Aktarmayi Baslat
+assetEditor.iconMassExportModal.statusLabel = Durum:
+assetEditor.iconMassExportModal.iconSize = Ikon Boyutu
+assetEditor.iconMassExportModal.starting = Baslatiliyor...
+assetEditor.iconMassExportModal.status = {completeCount}/{totalCount} – {percentage}% - {failedCount} Basarisiz - {skippedCount} Atlandi
+
+assetEditor.errors.invalidAssetsDirectory = Gecerli bir varlik klasoru bir Sunucu ve Ortak klasor icermelidir
+assetEditor.errors.failedToFetchAsset = "{path}" varligi alinamadi
+assetEditor.errors.failedToFetchParent = Bir varlik ebeveyni alinirken hata olustu
+assetEditor.errors.recursiveParent = Varlik yuklenemedi cunku bazi ebeveyn varliklar birbirine referans veriyor (dongu bagimliligi)
+assetEditor.errors.errorOccurredFetching = Bu varlik alinirken hata olustu
+assetEditor.errors.assetNotFound = Bu varlik mevcut degil
+assetEditor.errors.unknownAssetType = Bilinmeyen varlik tipi "{assetType}"
+assetEditor.errors.fileFormatNotSupported = Bu dosya formati desteklenmiyor
+assetEditor.errors.invalidJson = Gecersiz JSON
+assetEditor.errors.invalidAssetType = Gecersiz varlik tipi
+assetEditor.errors.missingId = Lutfen bir id girin
+assetEditor.errors.failedExportErrors = Bazi varliklar dogrulama hatalari icerdigi icin varliklar disa aktarilamadi
+assetEditor.errors.failedToSetupAssetTypes = Varlik tipleri ayarlanamadi
+assetEditor.errors.failedToLoadAssetFiles = Varlik dosyalari yuklenemedi
+assetEditor.errors.failedToLoadCommonAssetFiles = Ortak varlik dosyalari yuklenemedi
+assetEditor.errors.failedToRenameAsset = Varlik yeniden adlandirilamadi
+assetEditor.errors.failedToDeleteAsset = Varlik silinemedi
+assetEditor.errors.failedToCreateAsset = Varlik olusturulamadi
+assetEditor.errors.assetTypeNotSetupForEditor = Bu varlik tipi editor arayuzunden duzenlenmek icin ayarlanmamis
+assetEditor.errors.createDirectoryInvalidPath = Klasor olusturulamadi cunku varlik klasoru icinde degil
+assetEditor.errors.createDirectoryExists = Klasor olusturulamadi cunku zaten mevcut
+assetEditor.errors.createDirectoryOther = Klasor olusturulamadi
+assetEditor.errors.renameDirectoryInvalidPath = Klasor yeniden adlandirilamadi cunku varlik klasoru icinde degil
+assetEditor.errors.renameDirectoryExists = Klasor yeniden adlandirilamadi cunku ayni isimde bir klasor zaten mevcut
+assetEditor.errors.renameDirectoryMissing = Klasor yeniden adlandirilamadi cunku yeniden adlandirilacak klasor mevcut degil
+assetEditor.errors.renameDirectoryOther = Klasor yeniden adlandirilamadi
+assetEditor.errors.deleteDirectoryInvalidPath = Klasor silinemedi cunku varlik klasoru icinde degil
+assetEditor.errors.deleteDirectoryMissing = Klasor silinemedi cunku klasor mevcut degil
+assetEditor.errors.deleteDirectoryOther = Klasor silinemedi
+assetEditor.errors.directoryInvalidCharacters = Klasor isimleri \ veya / gibi karakterler iceremez
+assetEditor.errors.exportInProgress = Bir disa aktarma hala devam ediyor
+assetEditor.errors.cannotRevealUnexportedAsset = Dosya henuz disa aktarilmadigi icin explorer/finder'da dosya gosterilemez.
+assetEditor.errors.cannotPasteWrongType = Deger yapistirilamadi: gecersiz tip
+
+assetEditor.messages.assetExport.success = {count} varlik kaydedildi
+assetEditor.messages.assetExport.none = Hic varlik kaydedilmedi
+assetEditor.messages.assetExport.errors = Bazi varliklar hata icerdigi icin varliklar kaydedilemedi
+assetEditor.messages.assetExport.failedSaving = Varliklar kaydedilemedi
+assetEditor.messages.undoStackEmpty = Geri alinacak bir sey yok
+assetEditor.messages.redoStackEmpty = Tekrar yapilacak bir sey yok
+assetEditor.messages.directoryDeleted = Klasor basariyla silindi
+assetEditor.messages.directoryCreated = Klasor basariyla olusturuldu
+
+assetEditor.unexportedAssetsModal.quitTitle = Istemciden Cikilsin mi?
+assetEditor.unexportedAssetsModal.continueTitle = Devam Edilsin mi?
+assetEditor.unexportedAssetsModal.text = Varlik editorunde disa aktarilmamis degisiklikler var.
+assetEditor.unexportedAssetsModal.quitButton = Yine de Cik
+assetEditor.unexportedAssetsModal.continueButton = Yine de Devam Et
+
+assetEditor.diagnosticsTooltip.errors = Hatalar:
+assetEditor.diagnosticsTooltip.warnings = Uyarilar:
+assetEditor.diagnosticsTooltip.hasChildErrors = Bazi alt ozellikler hata iceriyor.
+assetEditor.diagnosticsTooltip.hasChildWarnings = Bazi alt ozellikler uyari iceriyor.
+
+assetEditor.configEditor.errors.failedToLoad = Editor yuklenemedi. Daha fazla detay icin logu kontrol edin
+assetEditor.configEditor.showAllProperties = Tum Ozellikleri Goster
+
+assetEditor.tabs.popup.close = Kapat
+assetEditor.tabs.popup.closeAll = Tumunu Kapat
+assetEditor.tabs.popup.copyId = ID'yi Kopyala
+
+assetEditor.weatherDaytimeBar.togglePauseTime = Zamani Duraklat/Devam Et
+assetEditor.weatherDaytimeBar.previousDay = Onceki gune ayarla
+assetEditor.weatherDaytimeBar.nextDay = Sonraki gune ayarla
+assetEditor.weatherDaytimeBar.lockTimeAndWeather = Varlik editorunden ayrildiktan sonra bile mevcut hava durumu ve zamani korumak icin tiklayin
+assetEditor.weatherDaytimeBar.currentDay = Gun {day, number}
+
+assetEditor.initializeButton.inactive = Nesneyi baslat
+assetEditor.initializeButton.active = Nesneyi kaldir
+
+assetEditor.fileSaveStatus.Saved = Degisiklikler Kaydedildi
+assetEditor.fileSaveStatus.Saving = Degisiklikler Kaydediliyor...
+assetEditor.fileSaveStatus.Unsaved = Kaydedilmemis Degisiklikler
+
+assetEditor.options.title = Secenekler
+assetEditor.options.disconnect = Sunucudan baglantiyi kes
+assetEditor.options.exportItemIcons = Esya Ikonlarini Disa Aktar
+assetEditor.options.settings = Ayarlar
+
+assetEditor.tabs.tooltip = {type} Varlik\n\
+\n\
+Paket: {pack}
+
+assetEditor.packModal.title.edit = Paketi Duzenle
+assetEditor.packModal.title.add = Paket Ekle
+assetEditor.packModal.readOnlyMessage = Bu paket salt okunur ve duzenlenemez.
+assetEditor.packModal.editModeNote = Bir varlik paketinin Isim veya Grup degisikligi sadece sunucu yeniden baslatildiktan sonra gecerli olacaktir.
+assetEditor.packModal.identifierChangeWarning = UYARI: Paket tanimlayicisini (Isim veya Grup) degistiriyorsunuz. Bu degisiklik hemen gecerli olacaktir ancak calisma zamani sirasinda beklenmedik davranislara neden olabilir. Bu pakete referans veren varliklar sunucu yeniden baslatilana kadar bozulmus olabilir.
+assetEditor.packModal.field.name = Isim
+assetEditor.packModal.field.name.placeholder = Paket ismi (paket icin benzersiz bir tanimlayici)
+assetEditor.packModal.field.group = Grup
+assetEditor.packModal.field.group.placeholder = Paket grubu (ornegin Isminiz)
+assetEditor.packModal.field.version = Surum
+assetEditor.packModal.field.version.placeholder = 1.0.0 (semver)
+assetEditor.packModal.field.website = Web Sitesi
+assetEditor.packModal.field.website.placeholder = Web Sitesi URL (istege bagli)
+assetEditor.packModal.field.description = Aciklama
+assetEditor.packModal.field.description.placeholder = Paket aciklamasi (istege bagli)
+assetEditor.packModal.field.authors = Yazarlar
+assetEditor.packModal.authors.add = + Ekle
+assetEditor.packModal.authors.empty = Yazar eklenmedi
+assetEditor.packModal.authors.entry = Yazar
+assetEditor.packModal.authors.name.placeholder = Isim
+assetEditor.packModal.authors.email.placeholder = E-posta (istege bagli)
+assetEditor.packModal.authors.url.placeholder = URL (istege bagli)
+assetEditor.packModal.button.save = Kaydet
+assetEditor.packModal.errors.nameRequired = Paket ismi gerekli
+assetEditor.packModal.errors.groupRequired = Paket grubu gerekli
+assetEditor.packModal.errors.versionRequired = Surum gerekli
+assetEditor.packModal.errors.versionInvalid = Gecersiz surum formati. Semantik surumlendirme kullanin (ornegin, 1.0.0, 2.1.3-beta, 1.0.0+build123)
+
+assetEditor.readOnlyAssetBar.message = Bu varlik salt okunur ve duzenlenemez, cunku varlik paketi salt okunur.
+assetEditor.readOnlyAssetBar.overrideButton = Varligi Gecersiz Kil
+assetEditor.readOnlyAssetBar.tooltip = Bu varlik duzenlenemez cunku icinde bulundugu varlik paketi salt okunur.\n\
+\n\
+Sikistirilmis varlik paketleri duzenlenemez, sadece klasor tabanli varlik paketleri duzenlenebilir.\n\
+\n\
+Ozel bir varlik paketi araciligiyla varliklari gecersiz kilabilirsiniz.
+
+assetEditor.inheritanceWarning.message = Uyari: Bu varligin bir Ebeveyni var ve miras alma henuz ozellik editorunde desteklenmiyor.
+assetEditor.inheritanceWarning.tooltip = Bu varlik baska bir varlikten ozellikleri miras aliyor ("Ebeveyn" ozelliginde belirtilmis).\n\n\
+Ozellik editoru su anda miras almayi tam olarak desteklemiyor ve sadece bu varlikta tanimlanan ozellikleri gosterecektir. \n\n\
+Ebeveyn varliktan bir deger kullanan ozellikler * ile isaretlenmistir.
+
+assetEditor.managePacksMenu.editPack = Paketi Duzenle
+assetEditor.managePacksMenu.addPack = Paket Ekle
+assetEditor.managePacksMenu.removePack = Paketi Kaldir
+
+assetEditor.confirmationModal.typeToConfirm = Onaylamak icin "{value}" yazin:
+
+assetEditor.deletePackModal.title = Varlik Paketi Silinsin mi?
+assetEditor.deletePackModal.text = "{packId}" varlik paketini silmek istediginize emin misiniz?\n\
+\n\
+UYARI: Bu TEHLIKELI bir islemdir!\n\
+\n\
+• Bu paket icindeki tum varliklar kalici olarak silinecektir\n\
+• Calisma zamani sirasinda bir varlik paketini silmek beklenmedik davranislara, cokmelere veya veri bozulmasina yol acabilir\n\
+• Bu paketteki varliklara diger paketlerden yapilan tum referanslar bozulacaktir\n\
+• Bu islem geri alinamaz\n\
+\n\
+Sadece sonuclari tam olarak anliyorsaniz devam edin.
+assetEditor.deletePackModal.confirmButton = Paketi Sil
+
+assetEditor.newAssetButton.readOnlyPackTooltip = Secilen varlik paketi salt okunur oldugu icin yeni varliklar olusturamazsiniz.
+# === auth ===
+auth.sessionExpired.title = Oturum Suresi Doldu
+auth.sessionExpired.message = Oturumunuz yenilenemedi. Cevrimdisi moda gecirildiniz.\n\nOyun oynamaya devam edebilirsiniz, ancak oyunu yeniden baslatana kadar sunuculara katilamaz veya yeni dunyalar baslatamazsiniz.
+# === bench ===
+bench.Furniture_Bench = Mobilya Calisma Tezgahi
+bench.Builders = Insaatci Calisma Tezgahi
+bench.Armor_Bench = Zirhci Calisma Tezgahi
+bench.Weapon_Bench = Demirci Orsu
+bench.Workbench = Calisma Tezgahi
+bench.Farmingbench = Ciftci Calisma Tezgahi
+bench.Farmingbench_old = Ciftci Calisma Tezgahi (Eski)
+bench.Cookingbench = Asci Ocagi
+bench.Loombench = Dokuma Tezgahi
+bench.Armory = Demirhane
+bench.Fieldcraft = Saha Zanaati
+bench.Arcanebench = Arkanist Calisma Tezgahi
+bench.Alchemybench = Simyaci Calisma Tezgahi
+bench.Template = Sablon
+bench.ArmorBench = Zirhci Calisma Tezgahi
+bench.Architectsbench = Mimarlik Calisma Tezgahi
+bench.Fieldcraft_Old = Saha Zanaati (Eski)
+
+# === benchCategories ===
+benchCategories.Furniture_Beds = Yataklar
+benchCategories.Furniture_Misc = Cesitli
+benchCategories.Furniture_Gothic = Gotik
+benchCategories.Furniture_Lighting = Aydinlatma
+benchCategories.Furniture_Pottery = Seramik
+benchCategories.Furniture_Textiles = Tekstil
+benchCategories.Furniture_Storage = Depolama
+benchCategories.Furniture_Statues = Heykeller
+benchCategories.Furniture_Seasonal = Mevsimsel
+benchCategories.Stairs = Merdivenler
+benchCategories.Ornate = Suslu
+benchCategories.Sign = Tabela
+benchCategories.Roof = Cati
+benchCategories.Decorative = Dekoratif
+benchCategories.Wardrobe = Gardirob
+benchCategories.Wall = Duvar
+benchCategories.Pillar = Sutun
+benchCategories.Shelf = Raf
+benchCategories.Bricks = Tuglalar
+benchCategories.Trapdoor = Tuzak Kapi
+benchCategories.Gate = Kapi
+benchCategories.Smooth = Purlu
+benchCategories.Structural-Rock = Yapi Kayasi
+benchCategories.Platform = Platform
+benchCategories.Window = Pencere
+benchCategories.Beam = Kiris
+benchCategories.SmoothHalfSlab = Purlu Yarim Levha
+benchCategories.HalfSlab = Yarim Levha
+benchCategories.Table = Masa
+benchCategories.Stool = Tabure
+benchCategories.Chair = Sandalye
+benchCategories.Door = Kapi
+benchCategories.Ladder = Merdiven
+benchCategories.Armor_Hands = Eller
+benchCategories.Armor_Legs = Bacaklar
+benchCategories.Armor_Head = Bas
+benchCategories.Armor_Chest = Gogus
+benchCategories.Weapon_Shield = Kalkan
+benchCategories.Weapon_Daggers = Hanclar
+benchCategories.Weapon_Sword = Kilic
+benchCategories.Weapon_Bow = Yay
+benchCategories.Weapon_Club = Sopa
+benchCategories.Weapon_Axe = Balta
+benchCategories.Weapon_Mace = Gurguz
+benchCategories.Weapon_Battleaxe = Savas Baltasi
+benchCategories.Weapon_Longsword = Uzun Kilic
+benchCategories.Workbench_Tools = Aletler
+benchCategories.Workbench_Weapons = Silahlar
+benchCategories.Workbench_Tinkering = Tamir
+benchCategories.Workbench_Crafting = Uretim
+benchCategories.Workbench_Farming = Ciftcilik
+benchCategories.Seeds = Tohumlar
+benchCategories.Other = Diger
+benchCategories.Saplings = Fidanlar
+benchCategories.All = Tumu
+benchCategories.Prepared = Hazirlanmis
+benchCategories.Baked = Pisirilmis
+benchCategories.Weapons = Silahlar
+benchCategories.Tools = Aletler
+benchCategories.Arcane_Misc = Cesitli
+benchCategories.Arcane_Portals = Portallar
+benchCategories.Alchemy_Potions = Ikiciler
+benchCategories.Alchemy_Bombs = Bombalar
+benchCategories.Template = Sablon
+# === builderTools ===
+builderTools.name = Insaatci Araclari
+builderTools.selectTool = Arac Sec
+builderTools.useTool = Arac Kullan
+builderTools.canNotUse = Yaratimci mod disinda insaatci araclari kullanilamaz!
+
+builderTools.selectATool = Yapilandirmak icin envanterinizdeki veya hizli erisim cubugunuzdaki bir insaatci aracina sol tiklayin.
+builderTools.noToolSettings = Bu arac yapilandirma gerektirmez.
+
+builderTools.favorites.nameTitle = Arac Favori Ismi
+builderTools.favorites.nameDescription = Lutfen bu favori arac icin bir isim girin
+
+builderTools.settings.ToolReachDistance.name = Arac Ulasim Mesafesi
+builderTools.settings.ToolReachDistance.description = Araclar icin kullanilacak maksimum (veya kilitli) ulasim mesafesini belirtir
+builderTools.settings.ToolDelayMin.name = Arac Gecikme Min
+builderTools.settings.ToolDelayMin.description = Her arac kullanimi arasinda izin verilen minimum gecikmeyi belirtir (ms cinsinden)
+builderTools.settings.EnableBrushShapeRendering.name = Firca Sekil Renderi
+builderTools.settings.EnableBrushShapeRendering.description = Firca renderini blok sekli ve standart tel cerceve arasinda degistirir
+builderTools.settings.BrushOpacity.name = Firca Opakligi
+builderTools.settings.BrushOpacity.description = Render edilen firca araclarinin opakligini kontrol eder
+builderTools.settings.SelectionOpacity.name = Secim Opakligi
+builderTools.settings.SelectionOpacity.description = Render edilen secim aracinin opakligini kontrol eder
+builderTools.settings.SelectionPanelOpacity.name = Secim Paneli Opakligi
+builderTools.settings.SelectionPanelOpacity.description = Suruklenebilir secim arac panellerinin opakligini kontrol eder
+builderTools.settings.FlightInertia.name = Ucus Ataleti
+builderTools.settings.FlightInertia.description = Yaratimci ucusuna momentum ve kademeli yavaslama ekler (0 = aninda durma, 100 = maksimum suruklenme)
+builderTools.settings.FlightMode.name = Ucus Modu
+builderTools.settings.FlightMode.description = Yerinde asili kalma veya kameraya dogru ucmak arasinda secim yapin
+builderTools.settings.DisplayLegend.name = Aciklama Goster
+builderTools.settings.DisplayLegend.description = Kontrol ipuclariyla insaatci araclari aciklama panelini gosterir veya gizler
+builderTools.settings.NoClip.name = Kliplenme Yok
+builderTools.settings.NoClip.description = Ucus sirasinda carpisma tespitini devre disi birakir, bloklarin icinden gecmenize izin verir
+builderTools.settings.AirPlacement.name = Hava Yerlestirme
+builderTools.settings.AirPlacement.description = Destek gerektirmeden mesafede havada blok yerlestirmeye izin verir
+builderTools.settings.AllowNPCDetection.name = NPC Tespitine Izin Ver
+builderTools.settings.AllowNPCDetection.description = Etkinlestirildiginde, NPC'ler Yaratimci moddayken sizi tespit edebilir ve tepki verebilir
+builderTools.settings.RespondToHit.name = Vurusa Tepki Ver
+builderTools.settings.RespondToHit.description = Etkinlestirildiginde, Yaratimci modda yenilmezken geri tepme ve diger vurus etkilerini alabilirsiniz
+builderTools.settings.BrushShapeRendering.name = Firca Blok Renderi
+builderTools.settings.BrushShapeRendering.description = Firca onizleme renderini tel cerceve ve blok stili arasinda degistirir
+builderTools.settings.FlightSpeedMultiplier.description = Ucus ve hareket hizini ayarla
+builderTools.settings.BrushSoundsEnabled.description = Firca araclari kullanilirken ses efektlerini etkinlestir veya devre disi birak
+builderTools.settings.BrushSoundVolume.description = Firca arac ses efektlerinin ses seviyesini ayarla
+builderTools.settings.HideHud.description = Tum HUD ogelerini gizle
+builderTools.settings.HideHotbar.description = Yaratimci moddayken hizli erisim cubugunu gizle
+builderTools.settings.HideCompass.description = Yaratimci moddayken pusulayi gizle
+builderTools.settings.HideNotifications.description = Yaratimci moddayken bildirimleri gizle
+builderTools.settings.HideChat.description = Yaratimci moddayken sohbet penceresini gizle
+builderTools.settings.HideHeldItem.description = Yaratimci moddayken elinizdeki esyayi gizle
+builderTools.settings.ShowEntityMarkers.description = Yaratimci moddayken varlik isaretleyicilerini goster
+builderTools.settings.Fullbright.description = Tum bloklari isik seviyesinden bagimsiz olarak tam aydinlik yapan tam aydinlik modunu etkinlestir
+
+builderTools.panel.settings = Ayarlar
+builderTools.panel.brushes = Fircalar
+builderTools.panel.brushSettings = Fircalar
+builderTools.panel.generalSettings = Genel Ayarlar
+builderTools.panel.maskSettings = Maske Ayarlari
+builderTools.panel.quickSettings = Ayarlar
+builderTools.quickSettings.title = Yaratimci Mod Hizli Ayarlari
+builderTools.panel.clearSelection = Secimi temizle
+builderTools.panel.enableEmptyFilter = 'Bos' filtresini etkinlestir
+builderTools.panel.invertEntireMask = Tum maskeyi ters cevir
+builderTools.panel.useCustomMaskCommandEntry = Ozel maske komut girisi kullan
+
+builderTools.replace.materialsToReplace = [TMP] Degistirilecek Malzemeler:
+builderTools.replace.replaceWith = [TMP] Bununla degistir:
+
+builderTools.legend.title = Aciklama
+builderTools.legend.pickMaterial = Malzeme sec
+builderTools.legend.setMask = Maske olarak ayarla
+builderTools.legend.addMask = Maskeye ekle
+builderTools.legend.changeHeight = Seklin yuksekligini degistir
+builderTools.legend.changeWidth = Seklin genisligini degistir
+builderTools.legend.favoriteMaterials = Favori malzemeler
+builderTools.legend.selectedMaterial = Secili malzeme
+builderTools.legend.shiftFasterChange = Daha hizli degisiklikler icin Shift'i basili tutun
+builderTools.legend.undo = Geri Al
+builderTools.legend.redo = Tekrar Yap
+builderTools.legend.addRemoveFavorite = Favori malzeme ekle/kaldir
+builderTools.legend.alt = Alt +
+builderTools.legend.shiftalt = Shift + Alt +
+builderTools.legend.shift = Shift +
+
+builderTools.legend.PaintBrush.Page1.Title = Temel Fircalar
+builderTools.legend.PaintBrush.Page1.Description = Firca Araci farkli sekiller, boyutlar ve malzemelerde blok yerlestirmenize ve kaldirmaniza olanak tanir
+builderTools.legend.PaintBrush.Page1.DestroyBlocks = Hedeflediginiz yerdeki bloklari yok edin
+builderTools.legend.PaintBrush.Page1.PlaceBlocks = Ayarladiginiz malzemeye gore hedeflediginiz yere bloklar yerlestirin
+builderTools.legend.PaintBrush.Page1.SelectTargetMaterial = Hedeflenen malzemeyi secin
+builderTools.legend.PaintBrush.Page1.AddTargetMaterial = Hedeflenen malzemeyi coklu malzeme olarak ekle
+builderTools.legend.PaintBrush.Page1.UndoLastBrush = Son firca islemini geri al
+builderTools.legend.PaintBrush.Page1.RedoLastUndo = Son geri alinan islemi tekrar yap
+builderTools.legend.PaintBrush.Page1.EditInventoryProperties = Envanterden malzemeler, boyut, sekil ve diger ozellikleri duzenle
+builderTools.legend.PaintBrush.Page1.AirPlacementTitle = Hava Yerlestirme
+builderTools.legend.PaintBrush.Page1.AirPlacementHotkey = Hava Yerlestirme hedefleme modunu ac/kapat
+builderTools.legend.PaintBrush.Page1.AirPlacementDistanceChange = Hava yerlestirme mesafesini degistir
+builderTools.legend.PaintBrush.Page2.Title = Eksen Kilidi ve Maskeleme
+builderTools.legend.PaintBrush.Page2.AxisLock = Eksen Kilidi
+builderTools.legend.PaintBrush.Page2.AxisLockDescription = Fircayi duz, hareket ettirilebilir, dondurulebilir bir yuzeye yapistirmaniza olanak tanir. Asagidaki kisa tuslar yuzey modunu gostermenize, duzenlemenize ve cikmaniza olanak tanir.
+builderTools.legend.PaintBrush.Page2.ShowSurfaceMoveTool = Yuzey Tasima Aracini Goster
+builderTools.legend.PaintBrush.Page2.ShowSurfaceRotationTool = Yuzey Donme Aracini Goster
+builderTools.legend.PaintBrush.Page2.UseBrush = Firca Kullan
+builderTools.legend.PaintBrush.Page2.ExitAxisLockMode = Eksen Kilidi modundan cik
+builderTools.legend.PaintBrush.Page2.BlockMasking = Blok Maskeleme
+builderTools.legend.PaintBrush.Page2.BlockMaskingDescription = Bu malzemelerle eslesen bloklara degisiklikleri sinirlayan malzemeleri fircaya ayarlamaniza olanak tanir
+builderTools.legend.PaintBrush.Page2.BrushMenuMaskingTab = Firca Menusu Maskeleme Sekmesi
+builderTools.legend.PaintBrush.Page2.MaskConfigDescription = 'Maske Yapilandirmasi' paneline gecmek icin sag ustteki kalem ikonuna tiklayin. Orada envanterden ogeler kullanarak daha karmasik maskeler olusturabilirsiniz. Daha fazla bilgi icin UI panelindeki terimlerin uzerine gelin.
+builderTools.legend.PaintBrush.Page3.Title = Komut Dosyasi Olusturulabilir Fircalar / Hava Yerlestirme
+builderTools.legend.PaintBrush.Page3.Description = Komut Dosyasi Olusturulabilir Fircalar\n\
+"Nehir Fircasi", "Dag Fircasi" ve hayal edebileceginiz herhangi bir baska firca gibi komutlar ve varliklar kullanarak ozel blok yerlestirme mantigi olusturabilirsiniz!
+builderTools.legend.PaintBrush.Page3.CreateBrushesDescription = Kendi fircalarinizi olusturmak icin, varliklardaki Assets/MacroCommands/Brushes/ klasorunde saglanan orneklere bir goz atin. Mevcut her firca yapilandirma islemi hakkinda daha fazla bilgi edinmek icin oyun ici /help komutunu kullanabilirsiniz. Ayrica bir Firca Esyasi olusturmaniz gerekecek; bu esyalarin ornekleri icin Assets/Server/Item/Items/EditorTool/ScriptedBrushes/ klasorune bakin.
+builderTools.legend.PaintBrush.Page3.TestingBrushesTitle = Gelistirme Fircalarini Test Etme
+builderTools.legend.PaintBrush.Page3.TestingBrushesDescription = Tum mevcut komut dosyasi fircalarini goruntulemek icin '/sb load' kullanin veya belirli bir fircayi dogrudan yuklemek icin '/sb load <isim>' kullanin. Bu, once bir esya olusturmaniza gerek kalmadan fircalari test etmenize olanak tanir. Bittiginde devre disi birakmak icin '/sb clear' kullanin.
+
+builderTools.legend.LineBrush.Page1.Title = Cizgi Fircasi
+builderTools.legend.LineBrush.Page1.Description = Duz blok cizgileri insa etmenize olanak tanir
+builderTools.legend.LineBrush.Page1.StartOrAddPoint = Cizgiyi baslat veya cizgiye nokta ekle
+builderTools.legend.LineBrush.Page1.CancelLine = Cizgiyi Iptal Et
+builderTools.legend.LineBrush.Page1.SnapToAngles = Farkli 45° acilara yapismak icin basili tutun
+builderTools.legend.LineBrush.Page1.EditInventoryProperties = Envanterden malzemeler, boyut ve diger ozellikleri duzenle
+
+builderTools.legend.MachinimaTool.Page1.Title = Baslangic
+builderTools.legend.MachinimaTool.Page1.Description = Aktorler, kameralar, parcalar, sesler ve daha fazlasini kullanarak anahtar kareli animasyonlar olusturun! Sinematikler ve ara sahneler icin mukemmel.
+builderTools.legend.MachinimaTool.Page1.OpensMenu = Machinima Editor UI'yi Ac
+builderTools.legend.MachinimaTool.Page1.BaseCommand = Tum machinima islemleri icin temel komut
+builderTools.legend.MachinimaTool.Page1.Scenes = Sahneler\n\
+Bir Sahne, machinimanizin icin bir konteynerdir. Tum aktorleri, anahtar kareleri ve ayarlari saklar.
+builderTools.legend.MachinimaTool.Page1.CreatingFirstScene = Ilk Sahnenizi Olusturma\n\
+1. Machinimaniz icin guzel bir yer bulun\n\
+2. Machinima Menusunu acin\n\
+3. Yeni bir Sahne olusturmak icin + ikonuna tiklayin\n\
+4. Ilk Aktorunuzu ekleyin!
+builderTools.legend.MachinimaTool.Page1.Actors = Aktorler\n\
+Bir Aktor, anahtar kare-animasyonlu bir nesnedir. Aktor tipleri icin bir sonraki sayfaya bakin.
+builderTools.legend.MachinimaTool.Page1.AddingCameraActor = Kamera Aktoru Ekleme\n\
+1. Kameranin olmasini istediginiz yerde kendinizi konumlandirin\n\
+2. Machinima Menusunu acin\n\
+3. Sahne listesinin altindaki + ikonuna tiklayin\n\
+4. Acilir menuden "Kamera"yi secin\n\
+5. Artik kameraya tiklayarak yeniden konumlandirabilir ve kamera gorunumunu acmak/kapatmak icin C'ye basabilirsiniz!
+
+builderTools.legend.MachinimaTool.Page2.Title = Aktor Tipleri
+builderTools.legend.MachinimaTool.Page2.Description = Farkli aktor tipleri machinimanizda farkli amaclara hizmet eder. Hepsi konum, donus ve diger degerleri kontrol etmenize olanak taniyan animasyonlu nesnelerdir. Aktorler Machinima Menusu araciligiyla eklenir
+builderTools.legend.MachinimaTool.Page2.CameraHeader = Kamera
+builderTools.legend.MachinimaTool.Page2.CameraDesc = Kamerayi yollar boyunca hareket ettirmenize ve FOV ve Hiz gibi cesitli ayarlari animasyonlu hale getirmenize olanak tanir.
+builderTools.legend.MachinimaTool.Page2.EntityHeader = Varlik
+builderTools.legend.MachinimaTool.Page2.EntityDesc = Modelleri olan animasyonlu karakterler. Vucut/bas donusu ve animasyon olaylarini destekler.
+builderTools.legend.MachinimaTool.Page2.PlayerHeader = Oyuncu
+builderTools.legend.MachinimaTool.Page2.PlayerDesc = Varliga benzer, yerel oyuncuya referans verir.
+builderTools.legend.MachinimaTool.Page2.ReferenceHeader = Referans
+builderTools.legend.MachinimaTool.Page2.ReferenceDesc = Gorusmez isaret noktalari. Hedefleme ve referans konumlari icin kullanislidir. Kameranin noktalari takip etmesi icin kamera hedeflerini ayarlamaniza olanak tanir.
+builderTools.legend.MachinimaTool.Page2.ItemHeader = Esya
+builderTools.legend.MachinimaTool.Page2.ItemDesc = Dunyada esyalari gosterir. Konumlandirilabilir ve animasyonlu hale getirilebilir.
+builderTools.legend.MachinimaTool.Page2.AddActorCommand = Komut: .mach actor add [tip] [isim]\n\
+Tipler: kamera, varlik, oyuncu, ref, esya
+
+builderTools.legend.MachinimaTool.Page3.Title = Oynatma Kontrolleri
+builderTools.legend.MachinimaTool.Page3.Description = Oynatma kontrolleri, tum aktorleri anahtar kare yollari boyunca animasyonlu hale getirerek sahnenizi onizlemenize olanak tanir. Bunlari zamanda ilerlemek, anahtar kareler arasinda atlamak ve animasyonlarinizi test etmek icin kullanin. Her kare, animasyonlari calistirarak tum aktorleri anahtar kare yollari boyunca guncelleyecektir.
+builderTools.legend.MachinimaTool.Page3.TogglePause = Oynat / Duraklat'i Ac/Kapat
+builderTools.legend.MachinimaTool.Page3.ContinuousPlayback = Surekli Oynatmayi Ac/Kapat (donguler)
+builderTools.legend.MachinimaTool.Page3.AutoRestart = Sahne sonunda Otomatik Yeniden Baslatmayi Ac/Kapat
+builderTools.legend.MachinimaTool.Page3.RestartScene = Sahneyi bastan yeniden baslat
+builderTools.legend.MachinimaTool.Page3.EndScene = Son kareye atla
+builderTools.legend.MachinimaTool.Page3.NavigationTitle = Kare Navigasyonu:
+builderTools.legend.MachinimaTool.Page3.FrameScrub = Kareler arasinda ilerle (surekli icin basili tut)
+builderTools.legend.MachinimaTool.Page3.JumpKeyframe = Onceki / sonraki anahtar kare noktasina atla
+builderTools.legend.MachinimaTool.Page3.SpeedModifiers = 2x hiz icin SHIFT'i, 0.5x hiz icin ALT'i basili tutun
+
+builderTools.legend.MachinimaTool.Page4.Title = Anahtar Kare Duzenleme
+builderTools.legend.MachinimaTool.Page4.Description = Anahtar kareler, bir aktorun belirli zaman noktalarindaki konumunu, donusunu ve ayarlarini tanimlar. Sistem, yumusak animasyon yollari olusturmak icin anahtar kareler arasinda interpolasyon yapar. Hareket olusturmak icin anahtar kareler ekleyin, zamanlama ve konumlandirmayi ince ayar yapmak icin bunlari duzenleyin.
+builderTools.legend.MachinimaTool.Page4.AddKeyframe = Aktorun izinin sonuna yeni anahtar kare ekle, animasyonu uzat
+builderTools.legend.MachinimaTool.Page4.AddAtCurrentFrame = Mevcut oynatma konumuna bir anahtar kare ekle
+builderTools.legend.MachinimaTool.Page4.CopyKeyframe = Secili anahtar kare ayarlarini baska bir aktor veya kareye yapistirmak icin kopyala
+builderTools.legend.MachinimaTool.Page4.DeleteKeyframe = Uzerinde gezindiginiz anahtar kareyi kaldir
+builderTools.legend.MachinimaTool.Page4.EditKeyframe = Anahtar kare konumunu ve donusunu ayarlamak icin gizmo'yu ac
+builderTools.legend.MachinimaTool.Page4.MoveActor = Tum aktor yolunu bir butun olarak yeniden konumlandir
+builderTools.legend.MachinimaTool.Page4.EditFrameTime = Bu anahtar karenin zaman cizelgesinde ne zaman gerceklestigini degistir
+builderTools.legend.MachinimaTool.Page4.AdjustFrameTime = Anahtar kare zamanlamasini daha erken veya daha gec ayarla
+
+builderTools.legend.MachinimaTool.Page5.Title = Fare Etkilesimleri
+builderTools.legend.MachinimaTool.Page5.Description = Etkilesimde bulunmak icin dunyadaki anahtar kare dugumlerine tiklayin:
+builderTools.legend.MachinimaTool.Page5.SelectKeyframe = Anahtar kareyi sec (Serbest Hareket moduna gec)
+builderTools.legend.MachinimaTool.Page5.JumpToKeyframe = Aktif olarak ayarla ve kareye atla
+builderTools.legend.MachinimaTool.Page5.GizmoTitle = Gizmo Kontrolleri:
+builderTools.legend.MachinimaTool.Page5.TranslationGizmo = Tercume Gizmo'yu Ac (eksen kilitli)
+builderTools.legend.MachinimaTool.Page5.RotationGizmo = Donus Gizmo'yu Ac (bas/vucut)
+builderTools.legend.MachinimaTool.Page5.FreeMoveTitle = Serbest Hareket Modu:
+builderTools.legend.MachinimaTool.Page5.FreeMoveDescription = Konumu onaylamak icin sol tiklayin, iptal etmek icin sag tiklayin.\n\
+Mesafede yuzeylere yapismak icin SHIFT'i basili tutun.\n\
+Yuzey yapismasini yok saymak icin ALT'i basili tutun.
+
+builderTools.legend.MachinimaTool.Page6.Title = Secim Modlari
+builderTools.legend.MachinimaTool.Page6.Description = Secim modlari, donusum araclari kullandiginizda neyin hareket ettirilecegini belirler. Yeniden konumlandirmak istediginiz seye gore dogru modu secin.
+builderTools.legend.MachinimaTool.Page6.CycleMode = Secim modlari arasinda dolas
+builderTools.legend.MachinimaTool.Page6.KeyframeModeTitle = Anahtar Kare Modu (Varsayilan)
+builderTools.legend.MachinimaTool.Page6.KeyframeModeDesc = Sadece secili anahtar kareyi hareket ettirir. Diger anahtar kareleri etkilemeden bir aktorun yolu boyunca bireysel noktalara hassas ayarlar yapmak icin bunu kullanin.
+builderTools.legend.MachinimaTool.Page6.ActorModeTitle = Aktor Modu
+builderTools.legend.MachinimaTool.Page6.ActorModeDesc = Secili aktor icin tum anahtar kareleri birlikte hareket ettirir. Tum yol animasyonun seklini koruyarak bir birim olarak kayar.
+builderTools.legend.MachinimaTool.Page6.SceneModeTitle = Sahne Modu
+builderTools.legend.MachinimaTool.Page6.SceneModeDesc = Tum sahne kokenini hareket ettirir, tum aktorleri ve yollarini birlikte kaydirir. Tum machinimanizi farkli bir bolgeye tasimak icin kullanislidir.
+
+builderTools.legend.MachinimaTool.Page7.Title = Goruntuleme ve Koken
+builderTools.legend.MachinimaTool.Page7.DisplayTitle = Goruntuleme Ac/Kapat:
+builderTools.legend.MachinimaTool.Page7.ToggleDisplay = Editor katman goruntulemesini ac/kapat
+builderTools.legend.MachinimaTool.Page7.TogglePathNodes = Yol dugum gorunurlugunu ac/kapat
+builderTools.legend.MachinimaTool.Page7.ToggleCamera = Kamera aktorunu ac/kapat
+builderTools.legend.MachinimaTool.Page7.ToggleFrustum = Kamera frustum goruntulemesini ac/kapat
+builderTools.legend.MachinimaTool.Page7.OriginTitle = Sahne Koken Kontrolleri:
+builderTools.legend.MachinimaTool.Page7.GoToOrigin = Sahne kokenine isinlan
+builderTools.legend.MachinimaTool.Page7.SetOrigin = Sahne kokenini oyuncu konumuna ayarla
+builderTools.legend.MachinimaTool.Page7.OffsetToOrigin = Tum sahneyi oyuncu konumuna kaydir
+
+builderTools.legend.MachinimaTool.Page8.Title = Yollar ve Egriler
+builderTools.legend.MachinimaTool.Page8.Description = Anahtar karelerin nasil interpolasyon yapilacagini secin:
+builderTools.legend.MachinimaTool.Page8.LinearHeader = Dogrusal (Varsayilan)
+builderTools.legend.MachinimaTool.Page8.LinearDesc = Anahtar kareler arasinda duz cizgiler. Basit ve tahmin edilebilir hareket.
+builderTools.legend.MachinimaTool.Page8.BezierHeader = Bezier
+builderTools.legend.MachinimaTool.Page8.BezierDesc = Yolu sekillendirmek icin surukleyebileceginiz kontrol kollariyla yumusak egriler.
+builderTools.legend.MachinimaTool.Page8.SplineHeader = Spline
+builderTools.legend.MachinimaTool.Page8.SplineDesc = Tum anahtar karelerden gecen otomatik yumusak egriler.
+builderTools.legend.MachinimaTool.Page8.BezierCommands = Yol Komutlari:
+builderTools.legend.MachinimaTool.Page8.EnableBezier = Bezier'i etkinlestir
+builderTools.legend.MachinimaTool.Page8.SmoothBezier = Yumusak kollar
+builderTools.legend.MachinimaTool.Page8.EnableSpline = Spline'i etkinlestir
+
+builderTools.legend.MachinimaTool.Page9.Title = Konsol Komutlari
+builderTools.legend.MachinimaTool.Page9.SceneCommands = Sahne: .mach scene [list | add | remove | save | load | copy | set | rename | rotate | clear]
+builderTools.legend.MachinimaTool.Page9.ActorCommands = Aktor: .mach actor [list | add | remove | set | model | move | clone | rotate | scale | clear]
+builderTools.legend.MachinimaTool.Page9.EventCommands = Olaylar: .mach event [list | add | remove]\n\
+Olay tipleri: animasyon, kamera, komut, parca, hedef
+builderTools.legend.MachinimaTool.Page9.FileCommands = Dosyalar: .mach save | load | files | zip | autosave [saniye]
+builderTools.legend.MachinimaTool.Page9.UtilityCommands = Yararli: .mach tool | fps [deger] | speed [deger] | align | demo [1-7] | restart
+
+builderTools.legend.PasteTool.Page1.Title = Prefab Yapistirma Fircasi
+builderTools.legend.PasteTool.Page1.Description = Firca kullanir gibi prefab'lari hizlica yapistirmaniza olanak tanir. Firca'nin cogu ozelligini destekler.
+builderTools.legend.PasteTool.Page1.LoadPrefabOrCopy = Bir prefab yukle veya bir secimi kopyala
+builderTools.legend.PasteTool.Page1.UseSelectionContents = Bir secimin icerigini kullanmak icin, secim aracini kullanarak bir secim yapin ve '/copy' yazin, sonra kopyanizi kullanmak icin yapistirma aracina geri donun
+builderTools.legend.PasteTool.Page1.OpensPrefabList = Prefab Listesini Ac; yuklemek icin bir prefab'a tiklayin
+builderTools.legend.PasteTool.Page1.PastePrefab = Prefab'i yapistir; prefab'i fircalamak icin basili tutun
+builderTools.legend.PasteTool.Page1.StickPrefab = Prefab'i hedefinize yapistir veya zaten yapistirilmis ise ayir
+builderTools.legend.PasteTool.Page1.RotatePrefabY = Y etrafinda dondur
+builderTools.legend.PasteTool.Page1.RotatePrefabX = X etrafinda dondur
+builderTools.legend.PasteTool.Page1.RotatePrefabZ = Z etrafinda dondur
+builderTools.legend.PasteTool.Page1.ShowTexture = Bloklarin dokusunu ac/kapat
+builderTools.legend.PasteTool.Page1.CycleOrigin = Kokeni dolas (Alt/Merkez/Ust)
+builderTools.legend.PasteTool.Page2.Title = Degistirici Tuslar
+builderTools.legend.PasteTool.Page2.ShiftPrefabLeftRight = Prefab'i sola veya saga kaydir
+builderTools.legend.PasteTool.Page2.ShiftPrefabForwardBackward = Prefab'i ileri veya geri kaydir
+builderTools.legend.PasteTool.Page2.ShiftPrefabUp = Prefab'i yukari kaydir
+builderTools.legend.PasteTool.Page2.ShiftPrefabDown = Prefab'i asagi kaydir
+builderTools.legend.PasteTool.Page2.RotatePrefabLeftRight = Prefab'i sola veya saga dondur
+builderTools.legend.PasteTool.Page2.RollPrefabLeftRight = Prefab'i sola veya saga yuvarla
+builderTools.legend.PasteTool.Page2.RollPrefabForwardBackward = Prefab'i ileri veya geri yuvarla
+builderTools.legend.PasteTool.Page2.ResetShifting = Kaydirmayi sifirla
+
+builderTools.legend.SculptBrush.Page1.Title = Heykel Fircasi
+builderTools.legend.SculptBrush.Page1.Description = Araziyi yukseltmenize ve alcaltmaniza, sekilleri daha hassas sekilde heykel yapmaniza ve karistirmaniza olanak tanir. Firca'nin cogu ozelligini destekler.
+builderTools.legend.SculptBrush.Page1.MeltAwayBlocks = Hedeflediginiz yerdeki bloklari katman katman eritin
+builderTools.legend.SculptBrush.Page1.RaiseLayer = Hedeflediginiz yere bir blok katmani yukseltin
+builderTools.legend.SculptBrush.Page1.Smooth = Purtuklu araziyi yumusat
+builderTools.legend.SculptBrush.Page1.MaterialSelectedDescription = Bir malzeme secildiginde, hedeflediginiz yere o malzemeden bir katman yerlestirir
+builderTools.legend.SculptBrush.Page1.SelectTargetMaterial = Hedeflenen malzemeyi secin
+builderTools.legend.SculptBrush.Page1.UndoLastBrush = Son firca islemini geri al
+builderTools.legend.SculptBrush.Page1.RedoLastUndo = Son geri alinan islemi tekrar yap
+builderTools.legend.SculptBrush.Page1.EditInventoryProperties = Envanterden malzemeler, boyut, sekil ve diger ozellikleri duzenle
+
+builderTools.legend.SelectionTool.Page1.Title = Temel Secimler
+builderTools.legend.SelectionTool.Page1.CreatingSelection = Secim Olusturma:
+builderTools.legend.SelectionTool.Page1.HoldAndDrag = 1. Ilk ekseni secmek icin basili tutun ve surukleyin, sonra birakin
+builderTools.legend.SelectionTool.Page1.AdjustAndClick = 2. Farenizi ayarlayin, sonra ucuncu boyutu ayarlamak icin tekrar tiklayin
+builderTools.legend.SelectionTool.Page1.ClearSelection = Secimi Temizle
+builderTools.legend.SelectionTool.Page1.ClickDragPanels = Secim Panellerinde Tikla ve Surukle
+builderTools.legend.SelectionTool.Page1.ChangeSelectionSize = Secim Boyutunu Degistir
+builderTools.legend.SelectionTool.Page1.MoveSelection = Secimi Tası
+builderTools.legend.SelectionTool.Page1.ExtrudeFace = Yuzeyi Cikar
+builderTools.legend.SelectionTool.Page1.MultipleSelections = Coklu Secimler:
+builderTools.legend.SelectionTool.Page1.NextSelection = Sonraki Secim
+builderTools.legend.SelectionTool.Page1.PreviousSelection = Onceki Secim
+builderTools.legend.SelectionTool.Page1.SetRedPoint = Kirmizi noktayi hedefe ayarla
+builderTools.legend.SelectionTool.Page1.SetGreenPoint = Yesil noktayi hedefe ayarla
+builderTools.legend.SelectionTool.Page2.Title = Kopyala / Tası / Dondur
+builderTools.legend.SelectionTool.Page2.WithSelectionCreated = Secim olusturulduktan sonra:
+builderTools.legend.SelectionTool.Page2.ShowMoveTool = Tasima Aracini Goster
+builderTools.legend.SelectionTool.Page2.AttachToCursor = Secimi Imlece Yapistir
+builderTools.legend.SelectionTool.Page2.ShowRotationTool = Donus Aracini Goster
+builderTools.legend.SelectionTool.Page2.PasteAndExit = Yapistir ve Cik
+builderTools.legend.SelectionTool.Page2.DuplicatePasteContinue = Kopyala, Yapistir ve Devam Et
+builderTools.legend.SelectionTool.Page2.CancelMovement = Hareketi ve donusu iptal et
+builderTools.legend.SelectionTool.Page2.DuplicateSelection = Secimi kopyala, sonra Tası / Dondur moduna gec
+builderTools.legend.SelectionTool.Page2.UsingYourSelection = Seciminizi Kullanma:
+builderTools.legend.SelectionTool.Page2.CopySelection = Secimi Kopyala
+builderTools.legend.SelectionTool.Page2.CopyUsageOptions = Sonra Yapistirma Aracini (firca + onizleme) veya '/paste' komutunu kullanin
+builderTools.legend.SelectionTool.Page2.SavingPrefabs = Prefab'lari Kaydetme:
+builderTools.legend.SelectionTool.Page2.SavePrefabCommand = Sohbet komutuyla secimi prefab olarak kaydet
+builderTools.legend.SelectionTool.Page2.LoadPrefabReference = UI araciligiyla prefab'lari yuklemek icin Yapistirma Araci aciklamasina bakin
+builderTools.legend.SelectionTool.Page3.Title = Secim Komutlari
+builderTools.legend.SelectionTool.Page3.BasicCommands = Temel Komutlar:\n\
+- /set [Secimi bloklara ayarlar]\n\
+- /clear [Secimdeki tum bloklari temizler]\n\
+- /walls [Secime duvarlar ekler]\n\
+- /move [Secimin icerigini baktiginiz yone tasir]\n\
+- /undo ve /redo [X kere Geri Al ve Tekrar Yap]\n\
+- /copy [Secimi panoya kopyalar]\n\
+- /cut [Secimi panoya keser]\n\
+- /paste [Panoyu konumunuzda yapistirir]\n\
+- /stack [Secimi baktiginiz yonde X kere yigilar]\n\
+- /replace [Bir malzemeyi baska biriyle degistir]\n\
+- /hollow [Merkezi bos birakan bir sekli bosaltir]\n\
+- /flip [Baktiginiz yondeki bloklari aynalar]\n\
+- /rotate [Secimi dondur]\n\
+- /expand [Secimi baktiginiz yonde genisletir]\n\
+- /contract [Secimi bir mesafe kadar kucultur]\n\
+- /deselect [Secim kutusunu temizler]
+builderTools.legend.SelectionTool.Page3.SeeHelpMenu = Seciminizde calistirabileceginiz daha fazla komut icin '/help' menusune bakin!
+
+builderTools.legend.RulerTool.Page1.Title = Temel Olcumler
+builderTools.legend.RulerTool.Page1.Description = Cetvel Araci, 3B uzayda birden fazla nokta arasindaki mesafeleri olcmenize olanak tanir, coklu olcum cizgileri destegi ile.
+builderTools.legend.RulerTool.Page1.PlacePoint = Hedef konumunuzda bir olcum noktasi yerlestirin
+builderTools.legend.RulerTool.Page1.EndCurrentLine = Mevcut olcum cizgisini bitir ve yeni bir tane baslat
+builderTools.legend.RulerTool.Page1.SnapToAngles = Hassas olcumler icin 45° acilara yapismak icin basili tutun
+builderTools.legend.RulerTool.Page1.DistanceMeasurement = Mesafe olcumleri her noktada ve her cizgi segmenti boyunca gosterilir. Cizgiler renk kodludur: Kirmizi (X ekseni), Yesil (Y ekseni), Mavi (Z ekseni), Beyaz (capraz)
+
+builderTools.legend.RulerTool.Page2.Title = Noktalari ve Cizgileri Duzenleme
+builderTools.legend.RulerTool.Page2.PointEditing = Mevcut noktalari duzenleme:
+builderTools.legend.RulerTool.Page2.MovePoint = Mevcut bir noktaya sag tiklayarak alin ve tasiyin
+builderTools.legend.RulerTool.Page2.DropPoint = Noktayi yeni konuma birakmak icin tekrar sag tiklayin
+builderTools.legend.RulerTool.Page2.DeletePoint = Uzerinde gezindiginiz noktayi sil
+builderTools.legend.RulerTool.Page2.ClearCurrentLine = Mevcut cizgiden tum noktalari temizle
+builderTools.legend.RulerTool.Page2.ClearAllLines = Tum cizgileri temizle ve araci sifirla
+
+builderTools.legend.RulerTool.Page3.Title = Coklu Olcum Cizgileri
+builderTools.legend.RulerTool.Page3.Description = Cetvel Araci, birden fazla ayri olcum cizgisi olusturmayi ve yonetmeyi destekler. Her cizgi bagimsiz olarak izlenir ve ayri olarak duzenlenebilir.
+builderTools.legend.RulerTool.Page3.NextLine = Sonraki olcum cizgisine gec
+builderTools.legend.RulerTool.Page3.PreviousLine = Onceki olcum cizgisine gec
+builderTools.legend.RulerTool.Page3.SwitchToLine = O cizgiye gecmek icin baska bir cizgiden bir noktaya sol tiklayin
+builderTools.legend.RulerTool.Page3.WorkflowTip = Ipucu: Bir cizgiye noktalar yerlestirdikten sonra, bitirmek ve otomatik olarak yeni bir cizgi baslatmak icin sol tiklayin. Etkin olmayan cizgiler azaltilmis opaklik ile gosterilir.
+
+builderTools.legend.SelectPrefabTool.Page1.Title = Prefab Secici
+builderTools.legend.SelectPrefabTool.Page1.Description = Prefab editoru, prefab'lari duzenlemek ve tekrar kaydetmek icin gecici bir ortam olusturur. Kaydetmeden prefab editorunden ayrilirsaniz, degisiklikleriniz kaybolacaktir.
+builderTools.legend.SelectPrefabTool.Page1.SelectingPrefabs = Prefab'lari Secme:
+builderTools.legend.SelectPrefabTool.Page1.SelectPrefab = Capanina tiklayarak bir prefab secin
+builderTools.legend.SelectPrefabTool.Page1.UnselectPrefab = Su anda secili prefab'in secimini kaldir
+builderTools.legend.SelectPrefabTool.Page1.EditingPrefabs = Prefab'lari Duzenleme:
+builderTools.legend.SelectPrefabTool.Page1.OpenSaveUI = Kaydet/ayarlar UI'yi ac
+builderTools.legend.SelectPrefabTool.Page1.UpdateBoundingBox = Secili prefab'in sinirlayici kutusunu mevcut seciminize guncelle
+builderTools.legend.SelectPrefabTool.Page1.TeleportToPrefab = Prefab'a isinlanma UI'yi ac
+builderTools.legend.SelectPrefabTool.Page1.SetAnchorTitle = Capani Ayarla Araci:
+builderTools.legend.SelectPrefabTool.Page1.SetAnchorDescription = Prefab'in capan noktasinin nerede bulundugunu degistirmek icin envanterinizden Capani Ayarla aracini kullanin. Capan, prefab dogdugunda nereye yerlestirilecegini belirler.
+builderTools.legend.SelectPrefabTool.Page1.UsefulCommands = Yararli Komutlar:
+builderTools.legend.SelectPrefabTool.Page1.KillCommand = /pedit kill - Secili prefab'den tum varliklari kaldirir\n\
+/pedit exit - Degisiklikleri kaydetmeden prefab editorunden cikar
+
+builderTools.tools.Paste.args.Origin.name = Koken
+builderTools.tools.Paste.args.Origin.values.Anchor = Capan
+builderTools.tools.Paste.args.Origin.values.Bottom = Alt
+builderTools.tools.Paste.args.Origin.values.Center = Merkez
+builderTools.tools.Paste.args.Origin.values.Top = Ust
+
+builderTools.legend.EntityTool.Page1.Title = Varlik Araci
+builderTools.legend.EntityTool.Page1.Description = NPC'leri ve esyalar, bloklar ve yaratiklarin modellerini dogurun. Dunyanizdaki varliklari secin, tasiyin, dondurun ve olceklendirin.
+builderTools.legend.EntityTool.Page1.SelectingEntities = Varliklari Secme:
+builderTools.legend.EntityTool.Page1.SelectEntity = Varlik sec/yakala
+builderTools.legend.EntityTool.Page1.FreeMove = Varligi serbest hareket ettir (basili tut ve surukle)
+builderTools.legend.EntityTool.Page1.CancelMovement = Hareketi iptal et ve konumu geri al
+builderTools.legend.EntityTool.Page1.AdjustDistance = Varlik mesafesini ayarla
+
+builderTools.legend.EntityTool.Page2.Title = Donusum Modlari
+builderTools.legend.EntityTool.Page2.TransformModes = Donusum Modlari:
+builderTools.legend.EntityTool.Page2.TranslateMode = Tercume moduna gec
+builderTools.legend.EntityTool.Page2.RotateMode = Donus moduna gec
+builderTools.legend.EntityTool.Page2.RotateHeadMode = Bas donusu moduna gec
+builderTools.legend.EntityTool.Page2.FreeMoveMode = Imlece yapistir
+builderTools.legend.EntityTool.Page2.Scale = Secili varligi olceklendir
+
+builderTools.legend.EntityTool.Page3.Title = Islemler
+builderTools.legend.EntityTool.Page3.EntityActions = Varlik Islemleri:
+builderTools.legend.EntityTool.Page3.Clone = Secili varligi klonla
+builderTools.legend.EntityTool.Page3.Remove = Secili varligi kaldir
+builderTools.legend.EntityTool.Page3.Freeze = Varlik dondurmayi ac/kapat
+builderTools.legend.EntityTool.Page3.MovementOptions = Hareket Secenekleri:
+builderTools.legend.EntityTool.Page3.SurfaceLock = Yuzey kilidi modunu ac/kapat
+builderTools.legend.EntityTool.Page3.SpawnUI = Dogurma UI:
+builderTools.legend.EntityTool.Page3.OpenSpawnUI = Varlik Dogurma UI'yi Ac
+
+builderTools.panel.selectedEntity = Secili Varlik
+builderTools.panel.entitySettings = Varlik Araci Ayarlari
+builderTools.panel.noSelection = Varlik secilmedi
+builderTools.panel.entityType = Tip
+builderTools.panel.entityModel = Model
+builderTools.panel.entityName = Isim
+builderTools.panel.entityPosition = Konum
+builderTools.panel.entityRotation = Donus
+builderTools.panel.entityScale = Olcek
+builderTools.panel.entityAllowPickup = Almayi Izin Ver
+builderTools.panel.entityClone = Klonla
+builderTools.panel.entityRemove = Kaldir
+builderTools.panel.entityPin = Varligi Sabitle
+builderTools.panel.entityUnpin = Varligin Sabitlemesini Kaldir
+builderTools.panel.surfaceLock = Yuzeye Kilitle
+builderTools.panel.gridSnap = Izgara Yapisma
+builderTools.panel.gridSize = Izgara Boyutu
+
+builderTools.commands.clearEntities.description = Mevcut secimdeki tum varliklari kaldirir.
+
+builderTools.entityType.npc = NPC
+builderTools.entityType.item = Esya
+builderTools.entityType.model = Model
+builderTools.entityType.unknown = Bilinmeyen
+builderTools.entityModel.fallback.npc = NPC #{id}
+builderTools.entityModel.fallback.item = Esya #{id}
+builderTools.entityModel.fallback.block = Blok #{id}
+builderTools.entityModel.fallback.unknown = #{id}
+
+builderTools.panel.entityLightEnabled = Isik Etkin
+builderTools.panel.entityLightColor = Isik Rengi
+builderTools.panel.entityLightRadius = Isik Yaricapi
+builderTools.panel.npcDebug = NPC Hata Ayiklama
+builderTools.panel.npcState = Durum
+builderTools.panel.npcHealth = Saglik
+builderTools.panel.npcStamina = Dayaniklilik
+builderTools.panel.npcSpeed = Hiz
+builderTools.panel.npcTarget = Hedef
+builderTools.panel.npcTarget.none = Yok
+# === codex ===
+codex.title = Kodeks
+
+codex.movement = Hareket
+
+codex.mantling = Tırmanma
+codex.mantling.description = Sizden daha uzun bir engelle karsilastiginda, ileri hareket edin ve uzerinden tırmanmak icin ziplama tusuna basin.
+
+codex.sliding = Kayma
+codex.sliding.description = Kosarken, kaymak icin "Cukme" tusuna basin.
+
+codex.rolling = Yuvarlanma
+codex.rolling.description = Dusarken, yuvarlanmak ve dusus hasarini iptal etmek icin "Cukme" tusunu basili tutun.
+# === confirmQuitOverlay ===
+confirmQuitOverlay.title = Oyundan Cik
+confirmQuitOverlay.text = Cikmak istediginize emin misiniz?
+
+confirmQuitOverlay.buttons.returnToGame = Oyuna Don
+confirmQuitOverlay.buttons.quitToDesktop = Masaustune Cik
+# === contentCreation ===
+contentCreation.pageTitle = Yaratimci Araclari
+
+contentCreation.introText = Bu, Hytale'de icerik olusturmaya yardimci olabilecek cesitli araclara ve editorlere erisebileceginiz merkezdir.\n\
+\n\
+Baslamak icin yukaridaki menuden sadece bir arac secin.
+
+contentCreation.actionButton.toggleBlockEditingTools = Blok Duzenleme Araclarinı Ac/Kapat
+
+contentCreation.notification.noBlockTargeted = Asset Editor'de acmak icin bir blok hedeflemeniz gerekir.
+
+# Blockbench Modals
+contentCreation.modal.blockbench.installRequired.title = Blockbench Kurulumu Gerekli
+contentCreation.modal.blockbench.installRequired.text = 3B model duzenleme icin Blockbench kullaniyoruz. Blockbench'in kurulu olmadigi gorunuyor.\n\nBlockbench'i yukleyiciyi kullanarak kurduysaniz, Blockbench'i Hytale'den baslatmak mumkundur. \n\nSimdi web sitelerinden kurmak ister misiniz?
+contentCreation.modal.blockbench.installRequired.confirm = Blockbench'i Kur
+contentCreation.modal.blockbench.pluginRequired.title = Hytale Eklentisi Gerekli
+contentCreation.modal.blockbench.pluginRequired.text = Blockbench'in kurulu oldugu gorunuyor, ancak Hytale eklentisi eksik.\n\nLutfen Hytale eklentisini kurun. Bunu yapmak icin talimatlari Blockbench web sitesinde bulabilirsiniz.
+contentCreation.modal.blockbench.pluginRequired.confirm = Kurulum Talimatlarini Goster
+contentCreation.modal.blockbench.launchFailed.title = Blockbench Baslatilamadi
+contentCreation.modal.blockbench.launchFailed.text = Blockbench sisteminizde bulundu, ancak baslatamadik.\n\nLutfen Blockbench'i manuel olarak baslatmayi deneyin.
+
+contentCreation.navigation.assets = Varliklar
+
+contentCreation.navigation.assetEditor = Varlik Editoru
+contentCreation.navigation.assetEditor.tooltipTitle = Varlik Editoru Uygulamasini Baslat
+contentCreation.navigation.assetEditor.tooltipDesc = Bu, oyun yapilandirma varliklarini canli olarak duzenlemenize olanak taniyan harici bir program baslatir.
+contentCreation.navigation.blockbench = Model Editoru
+contentCreation.navigation.blockbench.tooltipTitle = Blockbench Uygulamasini Baslat (Model Editoru)
+contentCreation.navigation.blockbench.tooltipDesc = Hytale icin kendi modellerinizi ve animasyonlarinizi olusturun.
+contentCreation.navigation.nodeeditor = Varlik Dugum Editoru
+contentCreation.navigation.nodeeditor.tooltipTitle = Varlik Dugum Editoru Uygulamasini Baslat
+contentCreation.navigation.nodeeditor.tooltipDesc = Gorsel komut dosyasi dugum editoru kullanarak varliklari duzenleyin.
+contentCreation.navigation.machinima = Machinima
+contentCreation.navigation.machinima.tooltipTitle = Machinima Editorunu Ac
+contentCreation.navigation.machinima.tooltipDesc = Machinima editorunu kullanarak Hytale icinde kendi filmlerinizi olusturun.
+contentCreation.navigation.buildertools = Insaatci Araclari
+contentCreation.navigation.buildertools.tooltipTitle = Insaatci Araclari Ac
+contentCreation.navigation.buildertools.tooltipDesc = Blok Duzenleme Araclari (Secim, Firca, Heykel, vb.)\n\
+\n\
+Yaratimci envanterin araclar sekmelerinde bulunan blok duzenleme araclariyla dunyanizdaki bloklari degistirin.
+
+contentCreation.modal.nodeeditor.nonsupported.title = Desteklenmeyen platform
+contentCreation.modal.nodeeditor.nonsupported.text = Dugum editoru su anda platformunuzda desteklenmiyor.\n\nSu anda sadece Windows'u destekliyoruz ve bu ozelligi tum PC platformlarina getirmek icin calisiyoruz.
+
+contentCreation.navigation.worldtools = Dunya
+contentCreation.navigation.worldtools.prefabEditor = Prefab Editoru
+contentCreation.navigation.worldtools.prefabEditor.tooltipTitle = Ayri bir alanda prefab'lari olusturun veya duzenleyin.
+contentCreation.navigation.worldtools.prefabList = Prefab Listesi
+contentCreation.navigation.worldtools.prefabList.tooltipTitle = Kullanici tarafindan olusturulan tum prefab'lari listele; Yapistirma Aracina yuklemek icin birine tiklayin.
+contentCreation.navigation.worldtools.spawnEntity = Varlik Dogur
+contentCreation.navigation.worldtools.spawnParticle = Parcacik Dogur
+contentCreation.navigation.worldtools.changeModel = Oyuncu Modelini Degistir
+contentCreation.navigation.worldtools.tintChunk = Parca Renklendir
+contentCreation.navigation.worldtools.instances = Ornekler
+contentCreation.navigation.worldtools.playSound = Ses Cal
+contentCreation.navigation.worldtools.playSound.tooltipTitle = Ses olaylarini gorusuntuleyin ve calin.
+contentCreation.navigation.worldtools.importObj = OBJ Iceri Aktar
+contentCreation.navigation.worldtools.importObj.tooltipTitle = 3B OBJ modellerini voxel'lere donusturun ve panoya kopyalayin.
+contentCreation.navigation.worldtools.importImage = Goruntu Iceri Aktar
+contentCreation.navigation.worldtools.importImage.tooltipTitle = 2B goruntuleri blok sanatina donusturun ve panoya kopyalayin.
+
+contentCreation.navigation.help = Yardim
+contentCreation.navigation.help.commands = Komutlar
+# === controls ===
+# Timeline Control
+controls.timeline.tooltip.muteTrack = Parcayi Sessize Al
+controls.timeline.tooltip.playPause = Oynat/Duraklat
+controls.timeline.tooltip.stop = Dur
+controls.timeline.tooltip.addTrack = Parca Ekle
+controls.timeline.button.autoRestart = Otomatik Yeniden Baslat
+controls.timeline.tooltip.toggleLoop = Donguyu Ac/Kapat
+controls.timeline.label.time = Zaman: {time}s
+controls.timeline.label.frame = Kare: {frame}
+controls.timeline.label.duration = Sure: {duration}
+controls.timeline.label.fps = FPS: {fps}
+controls.timeline.tooltip.keyframe = Kare: {time}
+# === devTools ===
+devTools.tabs.Console = Konsol
+devTools.tabs.GameInfo = Oyun Bilgisi
+
+devTools.options = Secenekler
+
+devTools.popupMenu.copyGameInfo = Oyun bilgisini panoya kopyala
+devTools.popupMenu.createDefect = Hata Olustur
+
+devTools.gameStats.popupMenu.editInAssetEditor = Varlik Editorunde Duzenle
+devTools.gameStats.popupMenu.copyValue = Degeri Kopyala
+
+devTools.logEntry.popupMenu.copyMessage = Mesaji Kopyala
+
+devTools.gameInfo.sections.Build = Yapı
+devTools.gameInfo.sections.Hardware = Donanim
+devTools.gameInfo.sections.World = Dunya
+devTools.gameInfo.sections.Chunks = Parcalar
+devTools.gameInfo.sections.AtlasSizes = Atlas Boyutlari
+devTools.gameInfo.sections.Assets = Varliklar
+devTools.gameInfo.sections.UI = UI
+devTools.gameInfo.sections.Particles = Parcaciklar
+devTools.gameInfo.sections.Network = Ag
+
+devTools.gameInfo.keys.Branch = Dal
+devTools.gameInfo.keys.Revision = Revizyon
+devTools.gameInfo.keys.FrameworkVersion = .Net surumu
+
+devTools.gameInfo.keys.GPUVendor = GPU
+devTools.gameInfo.keys.GPURenderer = GPU Renderer
+devTools.gameInfo.keys.GPUVersion = GPU Surumu
+devTools.gameInfo.keys.WindowSize = Pencere Boyutu
+devTools.gameInfo.keys.ViewportSize = Gorunum Alanı Boyutu
+devTools.gameInfo.keys.SceneSize = Sahne Boyutu
+
+devTools.gameInfo.keys.Biome = Biyom
+devTools.gameInfo.keys.Zone = Bolge
+devTools.gameInfo.keys.Environment = Cevre
+devTools.gameInfo.keys.Weather = Hava Durumu
+devTools.gameInfo.keys.Entities = Varliklar
+devTools.gameInfo.keys.AudioEvents = Ses Olaylari
+devTools.gameInfo.keys.SoundEffect = Ses Efekti
+devTools.gameInfo.keys.ViewDistance = Gorus Mesafesi
+devTools.gameInfo.keys.Heightmap = Yukseklik Haritasi
+devTools.gameInfo.keys.Tint = Renklendirme
+devTools.gameInfo.keys.Light = Isik
+devTools.gameInfo.keys.Music = Muzik
+devTools.gameInfo.keys.TargetBlock = Hedef Blok
+devTools.gameInfo.keys.HitBox = Vurus Kutusu
+devTools.gameInfo.keys.Orientation = Yonelim
+devTools.gameInfo.keys.FeetPosition = Ayak Konumu
+devTools.gameInfo.keys.ChunkPosition = Parca Konumu
+
+devTools.gameInfo.keys.MapAtlasSize = Harita
+devTools.gameInfo.keys.EntityAtlasSize = Varlik
+devTools.gameInfo.keys.IconAtlasSize = Ikon
+devTools.gameInfo.keys.UIAtlasSize = UI
+devTools.gameInfo.keys.CustomUIAtlasSize = Ozel UI
+
+devTools.gameInfo.keys.ChunksLoaded = Yuklendi
+devTools.gameInfo.keys.ChunksDrawable = Cizilebilir
+devTools.gameInfo.keys.ChunksMax = Maks
+devTools.gameInfo.keys.ChunksQueued = Kuyruga Alindi
+devTools.gameInfo.keys.ChunksRebuilding = Yeniden Insa Ediliyor
+devTools.gameInfo.keys.ChunksUploadReady = Yuklemeye Hazir
+devTools.gameInfo.keys.ChunksToUpdate = Guncellenecek
+devTools.gameInfo.keys.ChunksUpToDate = Guncel
+
+devTools.gameInfo.keys.ActivelyReferencedAssets = Aktif Olarak Referans Alindi
+devTools.gameInfo.keys.BuiltInAssets = Yerlesik
+devTools.gameInfo.keys.CachedAssets = Onbellege Alindi
+
+devTools.gameInfo.keys.UIScale = Olcek
+
+devTools.gameInfo.keys.ParticleSystems = Sistemler
+devTools.gameInfo.keys.ParticleProxies = Vekiller
+devTools.gameInfo.keys.ParticleBlend = Karisim
+devTools.gameInfo.keys.ParticleDistortion = Bozulma
+devTools.gameInfo.keys.ParticleErosion = Asinma
+
+devTools.gameInfo.keys.NetworkSent = Gonderildi
+devTools.gameInfo.keys.NetworkReceived = Alindi
+# === disconnection ===
+disconnection.title.disconnected = Sunucudan baglanti kesildi
+disconnection.title.failedToConnect = Sunucuya baglanilamadi
+
+disconnection.button.quitToMainMenu = Ana Menuye Cik
+disconnection.button.reconnect = Yeniden Baglan
+disconnection.button.reconnect.inProgress = Yeniden baglaniyor...
+
+disconnection.button.tryAgain = Tekrar Dene
+disconnection.button.tryAgain.inProgress = Baglaniyor...
+
+disconnection.autoConnectingIn = {seconds} saniye icinde baglaniyor
+
+disconnection.error.unexpectedError = Beklenmedik bir hata olustu
+disconnection.error.noConnectectionEstablished = Baglanti kurulamadi
+# === gameLoadingView ===
+gameLoadingView.hints.constructionThanks = Insaat altindayken oynadiginiz icin tesekkurler!
+gameLoadingView.hints.futureTipsAndTricks = Bu ekran, maceraniza yardimci olmak icin size ipuclari ve puf noktalari gosterecek.
+
+gameLoadingView.status.waitingForShutdown = Sunucunun kapanmasini bitirmesini bekliyor...
+gameLoadingView.status.connecting = Baglaniyor...
+gameLoadingView.status.connectingP2P = {host}'un '{name}' sunucusuna baglaniyor... ({current}/{total})
+gameLoadingView.status.bootingServer = Sunucu baslatiliyor...
+gameLoadingView.status.enterPassword = Sunucu sifresini girin
+gameLoadingView.status.wrongPassword = Yanlis sifre. {attempts, plural, one {# deneme} other {# deneme}} kaldi.
+
+gameLoadingView.password.title = Sunucu Sifresi
+gameLoadingView.password.submit = Giris
+# === gamePageNavigation ===
+gamePageNavigation.buttons.Inventory = Envanter
+gamePageNavigation.buttons.Map = Harita
+gamePageNavigation.buttons.ContentCreation = Yaratimci Araclari
+gamePageNavigation.buttons.ContentCreation.disabledTooltip = Yaratimci menu sadece Yaratimci modda kullanilabilir.
+gamePageNavigation.buttons.ContentCreation.disabledTooltip.title = [TMP] YARATIMCI MOD
+gamePageNavigation.buttons.ContentCreation.disabledTooltip.description = [TMP] Yaratimci modda guclu duzenleme araclarina erisim kazanirsiniz, yaratimci moda gecmek icin '/op self' sonra 'O' kisa tusu ile oyun modunu degistirin
+gamePageNavigation.earlyAccess = Erken Erisim
+# === general ===
+general.button.cancel = Iptal
+general.button.confirm = Onayla
+general.button.save = Kaydet
+general.button.ok = Tamam
+general.button.saveChanges = Degisiklikleri Kaydet
+general.button.discardChanges = Degisiklikleri Iptal Et
+general.button.resetDefaults = Varsayilanlara Sifirla
+general.button.close = Kapat
+general.button.back = Geri
+general.button.add = Ekle
+general.button.delete = Sil
+general.button.remove = Kaldir
+general.button.edit = Duzenle
+general.button.select = Sec
+general.button.browse = Gorusuntule
+
+general.label.loading = Yukleniyor...
+
+general.searchField.placeholder = Ara
+general.filterField.placeholder = Filtre
+
+general.dialog.error.title = Hata
+
+general.checkbox.on = Acik
+general.checkbox.off = Kapali
+
+general.gamemodes.adventure = Macera
+general.gamemodes.creative = Yaratimci
+
+general.relativeTime.now = Simdi
+general.relativeTime.lessThanAMinute = Bir dakikadan az once
+general.relativeTime.minute = bir dakika once
+general.relativeTime.minutes = {minutes} dakika once
+general.relativeTime.hour = bir saat once
+general.relativeTime.hours = {hours} saat once
+general.relativeTime.day = bir gun once
+general.relativeTime.days = {days} gun once
+general.relativeTime.month = bir ay once
+general.relativeTime.months = {months} ay once
+general.relativeTime.year = bir yil once
+general.relativeTime.years = {years} yil once
+
+general.chatMessage.failedToSaveScreenshot = Ekran goruntusu kaydedilemedi!
+general.chatMessage.requestCancelled = Istek iptal edildi
+# === hud ===
+hud.playerList.onlinePlayers = Cevrimici Oyuncular
+hud.playerList.username = Kullanici Adi
+hud.playerList.ping = Ping
+
+hud.itemSlotSelector.noItem = Esya Yok
+hud.itemSlotSelector.empty = Bos
+hud.itemSlotSelector.invalidItem = Gecersiz Esya
+
+hud.entityEffects.defaultBuffName = Guclendirme
+hud.entityEffects.defaultDebuffName = Zayiflatma
+
+hud.portalPanel.title = {name}
+hud.portalPanel.portalLabel = Orbis Parcasi
+hud.portalPanel.timeUntilBreach = Bosluk ihlaline kadar gecen sure
+hud.portalPanel.timeUntilClose = Portal kapanana kadar gecen sure
+
+hud.inputBindings.inventory = Envanter
+hud.inputBindings.creationTools = Yaratimci Araclari
+hud.inputBindings.map = Harita
+hud.inputBindings.rotateBlock = Dondur
+hud.inputBindings.selectBlockVariant = Blok Varyanti
+
+hud.networkQuality.ping.good = Dusuk Gecikme (<50ms)
+hud.networkQuality.ping.okay = Orta Gecikme (50-100ms) - kucuk gecikme fark edebilirsiniz.
+hud.networkQuality.ping.poor = Yuksek Gecikme (100-200ms) - gecikme yasayabilirsiniz.
+hud.networkQuality.ping.bad = Cok Yuksek Gecikme  (>=200ms) - oyun yavasi veya yanit vermeyebilir.
+hud.networkQuality.jitter.good = Dusuk Titreme (<5ms)
+hud.networkQuality.jitter.okay = Orta Titreme (5-15ms) - kucuk takilma fark edebilirsiniz.
+hud.networkQuality.jitter.poor = Yuksek Titreme (15-30ms) - oyun dengesiz hissedebilir.
+hud.networkQuality.jitter.bad = Cok Yuksek Titreme  (>=30ms) - sik gecikme zirveleri veya lastik bant etkisi olabilir.
+hud.networkQuality.packetLoss.good = Dusuk Paket Kaybi (<0.1%)
+hud.networkQuality.packetLoss.okay = Orta Paket Kaybi (0.1-1%) - arasira gecikmeler veya eksik islemler fark edebilirsiniz.
+hud.networkQuality.packetLoss.poor = Yuksek Paket Kaybi (1-3%) - bazi islemler veya guncellemeler kaydedilmeyebilir.
+hud.networkQuality.packetLoss.bad = Cok Yuksek Paket Kaybi (>=3%) - siddetli senkronizasyon bozuklugu veya baglanti kesilmeleri olabilir.
+
+hud.networkQuality.worldSaving = Dunya kaydediliyor
+hud.networkQuality.offlineMode = Cevrimdisi Mod - Oturumunuzun suresi doldu. Cevrimici moda donmek icin oyunu yeniden baslatin.
+
+hud.sleep.awaiting = {asleep}/{total} oyuncu uyuyor...
+hud.sleep.waitingOn = {who} bekleniyor
+
+hud.chat.openLinkModal.title = Harici Web Sitesi Acilsin mi?
+hud.chat.openLinkModal.text = "{url}" web sitesini bir web tarayicisinda acmak uzere siniz. \n\
+\n\
+Ozellikle kisisel bilgi isterlerse, diger oyunculardan gelen baglantilari ziyaret ederken dikkatli olun.\n\
+\n\
+Devam etmek istediginize emin misiniz?
+hud.chat.openLinkModal.confirm = Web Sitesini Ac
+# === inventory ===
+inventory.chest.title = Sandik
+inventory.chest.tooltip.takeAll = Tumunu Al - Tum esyalari konteynerden envantere tasir.
+inventory.chest.tooltip.putAll = Tumunu Koy - Tum esyalari envanterden konteynere tasir.
+inventory.chest.tooltip.quickStack = Hizli Yig - Zaten mevcut olan esya tipleri icin esyalari envanterden konteynere tasir.
+
+inventory.inventory.title = Envanter
+inventory.itemQuantityPopup.title = Yigini Bol:
+
+inventory.itemLibrary.title = Esya Kutuphanesi
+inventory.itemLibrary.options.title = Secenekler
+inventory.itemLibrary.options.showVariants = Varyantlari Goster
+
+inventory.itemPreview.title = Esya Onizleme
+
+inventory.character.tooltip.togglePocketCrafting = Cep Uretimini Ac/Kapat
+inventory.character.tooltip.toggleBackpack = Cantayi Ac/Kapat
+inventory.character.tooltip.lockedBackpack = Cantaya Yükseltme yaparak acilir.
+inventory.character.tooltip.toggleMemories = Toplanan Anilari Ac/Kapat
+inventory.character.tooltip.disabledMemories = [TMP] Anilar bu baglamda devre disi.
+inventory.character.tooltip.disabledBackpack = [TMP] Canta bu baglamda devre disi.
+inventory.character.tooltip.lockedMemories = Daha fazla bilgi edinmek icin Unutulmus Tapinagi bulun.
+inventory.character.tooltip.pocketCraftingDisabled = [TMP] Cep Uretimi bu baglamda devre disi.
+
+inventory.character.stats.mana = Mana
+inventory.character.stats.health = Saglik
+inventory.character.stats.stamina = Dayaniklilik
+inventory.character.stats.defense = Savunma
+inventory.character.stats.stats = Istatistikler
+
+inventory.crafting.title = Uretim
+inventory.crafting.button.craft = Uret
+inventory.crafting.button.craft1 = Uret
+inventory.crafting.button.craft10 = x10
+inventory.crafting.button.craft10.tooltip = x10 Uret
+inventory.crafting.button.craftAll = Tumu
+inventory.crafting.button.craftAll.tooltip = Tumunu Uret
+inventory.crafting.button.craftX = x{count}
+inventory.crafting.button.crafting = Uretiliyor...
+inventory.crafting.unknownItem = Bilinmeyen Esya
+
+inventory.crafting.unknownItem.knowledgeRequired = Tarif henuz kesfedilmedi
+inventory.crafting.unknownItem.memoriesCountRequired = Bu tarifi acmak icin <color is="#f1ba50">Unutulmus Tapinak</color>'i bulun ve {memories} Aniyi geri yukleyin!
+inventory.crafting.lockedItem.benchTierLevelRequired = {benchname} seviye {level} gerektirir
+
+inventory.bench.tierLevelX = Seviye {level}
+inventory.bench.tierLevelX.requirements = Seviye {level} gereksinimleri
+inventory.bench.tierLevelX.upgrade = Seviye {level}'e yukselt
+inventory.bench.tier.button.upgrade = Yukseelt
+inventory.bench.tier.max = MAKS SEVIYE ULASILDI
+
+inventory.crafting.ingredient.tooltip.pullingFromChests = Envanterinizde yeterli malzeme yok. Yakin sandiklardan esyalar kullaniliyor.
+
+inventory.crafting.options.hideUnknownRecipes = Bilinmeyen tarifleri gizle
+
+inventory.processing.button.turnOn = Ac
+inventory.processing.button.turnOff = Kapat
+inventory.processing.panel.fuel.title = Yakit
+inventory.processing.panel.output.title = Cikti
+
+inventory.panel.input.title = Giris
+
+inventory.itemInfo.title = Esya Bilgisi
+inventory.itemInfo.hoverInfo = Bir esya hakkinda daha fazla bilgi bulmak icin uzerine gelin.
+inventory.itemInfo.itemSet = Esya Seti
+
+inventory.recipesButton = Tarifler
+
+inventory.recipeCataloguePopup.title = Tarif Katalogu
+
+inventory.fieldcraft.title = Cep Uretimi
+
+inventory.storage.filterTooltips.weapons = Sadece Silahlari Goster
+inventory.storage.filterTooltips.armor = Sadece Zirhlari Goster
+inventory.storage.filterTooltips.blocks = Sadece Insaat Malzemelerini Goster
+
+inventory.button.autoSort.tooltip = Esyalari Tipe Gore Sirala
+inventory.dropdown.autoSortBy = Otomatik siralama:
+inventory.dropdown.autoSort.types.Name = Isim
+inventory.dropdown.autoSort.types.Type = Tip
+inventory.dropdown.autoSort.types.Rarity = Nadirlik
+
+inventory.memories.title = Toplanan Anilar
+
+inventory.action.toggleBuilderTools = Insaatci Araclari Ac/Kapat
+inventory.action.pickHalf = Yarisini Al
+inventory.action.pickOne = Birini Al
+inventory.action.smartMove = Transfer
+inventory.action.resize = Boyutu Degistir
+inventory.action.placeOne = Birini Koy
+inventory.action.resizeMod = Boyutu x5 Degistir
+# === itemTooltip ===
+itemTooltip.resourceType.name = Kaynak: {name}
+itemTooltip.id = ID:
+itemTooltip.utility = Yararli
+itemTooltip.consumable = Tuketilebilir
+
+itemTooltip.cursed.label = Lanetli
+itemTooltip.cursed.help = Temizlemek icin Parcayi Hayatta Kal
+
+itemTooltip.stats.Health = Saglik
+itemTooltip.stats.Stamina = Dayaniklilik
+itemTooltip.stats.Mana = Mana
+itemTooltip.stats.Oxygen = Oksijen
+itemTooltip.stats.Defense = Savunma
+itemTooltip.stats.FireResistance = Ates Direnci
+itemTooltip.stats.WaterResistance = Su Direnci
+itemTooltip.stats.EarthResistance = Toprak Direnci
+itemTooltip.stats.AirResistance = Hava Direnci
+itemTooltip.stats.SignatureEnergy = Imza Enerjisi
+itemTooltip.stats.Ammo = Cephane
+itemTooltip.stats.SignatureCharges = Imza Yukleri
+
+itemTooltip.damageClass.unknown = Bilinmeyen
+itemTooltip.damageClass.light = Hafif Saldiri
+itemTooltip.damageClass.charged = Yuklu Saldiri
+itemTooltip.damageClass.signature = Imza Saldirisi
+
+itemTooltip.increases = Artirir
+itemTooltip.decreases = Azaltir
+itemTooltip.modifies = Degistirir
+itemTooltip.damageBy = hasar:
+itemTooltip.resistance = Direnc:
+
+itemTooltip.oneHanded = Tek Ellı
+itemTooltip.twoHanded = Cift Ellı
+# === machinima ===
+machinima.bindings.TogglePause = Duraklatmayi Ac/Kapat
+machinima.bindings.ToggleDisplay = Goruntulemeyi Ac/Kapat
+machinima.bindings.ToggleCamera = Kamerayi Ac/Kapat
+machinima.bindings.RestartScene = Sahneyi Yeniden Baslat
+machinima.bindings.FrameDecrement = Kareyi Azalt
+machinima.bindings.FrameIncrement = Kareyi Artir
+machinima.bindings.FrameTimeDecrease = Kare Zamanini Azalt
+machinima.bindings.FrameTimeIncrease = Kare Zamanini Artir
+machinima.bindings.KeyframeDecrement = Anahtar Kareyi Azalt
+machinima.bindings.KeyframeIncrement = Anahtar Kareyi Artir
+machinima.bindings.PlaybackSpeedDecrease = Oynatma Hizini Azalt
+machinima.bindings.PlaybackSpeedIncrease = Oynatma Hizini Artir
+machinima.bindings.AddKeyframe = Anahtar Kare Ekle
+machinima.bindings.RemoveKeyframe = Anahtar Kareyi Sil
+machinima.bindings.EditKeyframe = Anahtar Kareyi Duzenle
+machinima.bindings.OriginAction = Koken Islemi
+machinima.bindings.CycleSelectionMode = Secim Modunu Dolas
+
+# Header
+machinima.header.placeholder.selectScene = Bir Sahne Secin
+machinima.header.button.create = Olustur
+machinima.header.button.delete = Sil
+machinima.header.button.save = Kaydet
+machinima.header.button.settings = Ayarlar
+machinima.header.button.help = Yardim
+
+# Modal Titles
+machinima.modal.title.inputBindings = Giris Baglamalari
+machinima.modal.title.editScene = Sahneyi Duzenle
+machinima.modal.title.createScene = Yeni Sahne Olustur
+machinima.modal.title.createActor = Yeni Aktor Olustur
+machinima.modal.title.editActor = Aktoru Duzenle
+machinima.modal.title.editKeyframeEvent = Anahtar Kare Olayini Duzenle
+machinima.modal.title.addKeyframeSetting = Anahtar Kare Ayarı Ekle
+machinima.modal.title.addKeyframeEvent = Anahtar Kare Olayi Ekle
+machinima.modal.title.deleteEvent = Olayi Sil
+machinima.modal.title.deleteScene = Sahneyi Sil
+
+# Modal Buttons
+machinima.modal.button.close = Kapat
+machinima.modal.button.saveChanges = Degisiklikleri Kaydet
+machinima.modal.button.createScene = Sahne Olustur
+machinima.modal.button.createActor = Aktor Olustur
+machinima.modal.button.addSetting = Ayar Ekle
+machinima.modal.button.addEvent = Olay Ekle
+machinima.modal.button.delete = Sil
+
+# Modal Messages
+machinima.modal.message.deleteEvent = '{name}' olayini silmek istiyor musunuz?
+machinima.modal.message.deleteScene = '{name}' sahnesini silmek istiyor musunuz?
+
+# Modal Labels
+machinima.modal.label.name = Isim
+machinima.modal.label.type = Tip
+machinima.modal.label.animationSlot = Animasyon Yuvasi
+machinima.modal.label.animationId = Animasyon ID
+machinima.modal.label.command = Komut
+machinima.modal.label.particleSystem = Parcacik Sistemi
+machinima.modal.label.targetActor = Hedef Aktor
+machinima.modal.label.actorType = Aktor Tipi
+machinima.modal.label.item = Esya
+machinima.modal.label.scale = Olcek
+machinima.modal.label.model = Model
+machinima.modal.label.fieldOfView = Gorus Alani
+machinima.modal.label.lighting = Isik yayiyor
+machinima.modal.label.light = Isik rengi
+
+# Modal Checkboxes
+machinima.modal.checkbox.activateCamera = Kamerayi Etkinlestir
+
+# Modal Placeholders
+machinima.modal.placeholder.actorName = Aktor Ismi
+machinima.modal.placeholder.selectActorType = Bir Aktor Tipi Secin
+machinima.modal.placeholder.selectEvent = Bir Olay Secin
+machinima.modal.placeholder.selectItem = Bir Esya Secin
+
+# Keyframe Editor
+machinima.keyframe.tab.settings = Ayarlar
+machinima.keyframe.tab.events = Olaylar
+machinima.keyframe.button.addSetting = Ayar Ekle
+machinima.keyframe.button.addEvent = Olay Ekle
+machinima.keyframe.button.edit = Duzenle
+machinima.keyframe.button.delete = Sil
+machinima.keyframe.tooltip.deleteEvent = Olayi Sil
+# === mainMenu ===
+# Navigation
+
+mainMenu.navigation.quit = Cikis
+mainMenu.navigation.settings = Ayarlar
+mainMenu.navigation.worlds = Dunya
+mainMenu.navigation.minigames = Mini Oyunlar
+mainMenu.navigation.servers = Sunucular
+mainMenu.navigation.avatar = Avatarim
+mainMenu.navigation.shop = Dukkan
+
+mainMenu.discord.button.label = Discorda Katil
+mainMenu.discord.button.tooltip = Discord'umuzu harici bir tarayicida ac
+
+mainMenu.feedback.button.label = [TMP] Geri Bildirimde Bulunun
+
+# Minigames
+
+mainMenu.minigames.title = Mini Oyunlar
+mainMenu.minigames.title.appendix = Yakinda!
+
+mainMenu.minigames.wip.title = YAPIM ASAMASINDA
+mainMenu.minigames.wip.text = Bu oyun modu gelecekte bir tarihte kullanilabilir olacak
+
+# Shop
+
+mainMenu.shop.title = Mevcut Surumler
+mainMenu.shop.owned = Sahip Olunan
+mainMenu.shop.upgrade = Yukseelt
+
+# Multiplayer
+
+mainMenu.servers.title = Sunucular
+
+mainMenu.servers.groups.recent = Son
+mainMenu.servers.groups.favorite = Favori
+mainMenu.servers.groups.friends = Arkadaslar
+mainMenu.servers.groups.all = Tum Sunucular
+mainMenu.servers.groups.lan = Yerel
+
+mainMenu.servers.groups.join = Sunucuya Katil
+mainMenu.servers.groups.homepage = Tam Sunucu Sayfasini Goruntule
+
+mainMenu.servers.lookingForLan = Yerel sunucular araniyor...
+mainMenu.servers.connectingToServer = {name} sunucusuna baglaniyor...
+mainMenu.servers.connect = Baglan
+mainMenu.servers.connectionAddress = Baglanti Adresi
+mainMenu.servers.connectDirectly = Dogrudan Baglan
+mainMenu.servers.joinViaCode = Kod ile Katil
+mainMenu.servers.inviteCode = Davet Kodu
+mainMenu.servers.inviteCodePlaceholder = Davet kodunu buraya yapistirin...
+mainMenu.servers.join = Katil
+mainMenu.servers.joinViaCode.error.empty = Lutfen bir davet kodu girin
+mainMenu.servers.joinViaCode.error.invalidCode = Gecersiz davet kodu formati
+mainMenu.servers.joinViaCode.error.expired = Bu davet kodunun suresi dolmus
+mainMenu.servers.joinViaCode.error.failedToConnect = Mevcut herhangi bir adrese baglanilamadi
+mainMenu.servers.joinViaCode.status.connecting = Baglanti adaylari deneniyor...
+
+mainMenu.servers.noFavoriteServers.title = Sunucu Eklenmedi
+mainMenu.servers.noFavoriteServers.text = Asagidaki "Sunucu Ekle" butonuna tiklayarak listesine bir sunucu ekleyebilirsiniz.
+mainMenu.servers.noLanServers.title = Sunucu Bulunamadi
+mainMenu.servers.noLanServers.text = Ayni yerel agda bulunabilir sunucular burada gorunecektir.
+
+# Online Play Settings
+mainMenu.onlinePlay.title = Cevrimici Oyun
+mainMenu.onlinePlay.shareCode = Paylasim Kodu
+mainMenu.onlinePlay.shareCode.hintActive = Bu kodu arkadaslarinizla paylasin, böylece Sunucular menusundeki 'Kod ile Katil' secenegini kullanarak dunyaniza katilabilirler.
+mainMenu.onlinePlay.shareCode.hintInactive = Paylasim kodunuzu almak icin 'Diger Oyuncularin Katilmasina Izin Ver' secenegini etkinlestirin ve Kaydet'e basin.
+mainMenu.onlinePlay.shareCode.ipWarning = Uyari: Bu paylasim kodu IP adresinizi icerir. Sadece guvendiginiz kisilerle paylasin.
+mainMenu.onlinePlay.shareCode.placeholder = Henuz paylasim kodu yok
+mainMenu.onlinePlay.shareCode.copy = Panoya Kopyala
+mainMenu.onlinePlay.setting.allowPlayers = Diger Oyuncularin Katilmasina Izin Ver
+mainMenu.onlinePlay.setting.password = Sifre
+mainMenu.onlinePlay.setting.password.placeholder = Sifre yok
+mainMenu.onlinePlay.setting.includePasswordInCode = Paylasim Koduna Sifreyi Dahil Et
+mainMenu.onlinePlay.status.copiedToClipboard = Panoya kopyalandi!
+mainMenu.onlinePlay.status.connecting = Baglanti kuruluyor... Bu birkac saniye surebilir.
+mainMenu.onlinePlay.status.connectedVia = {method} araciligiyla baglandi
+mainMenu.onlinePlay.status.failed = Baglanti kurulamadi. Tekrar deneyin veya güvenlik duvari ayarlarini kontrol edin.
+mainMenu.onlinePlay.natType = NAT Tipi: {type}
+mainMenu.onlinePlay.natType.Unknown = Bilinmeyen
+mainMenu.onlinePlay.natType.None = NAT Yok (Dogrudan)
+mainMenu.onlinePlay.natType.NatWithUpnp = Standart (UPnP)
+mainMenu.onlinePlay.natType.NatWithoutUpnp = Kisitli (UPnP Yok)
+mainMenu.onlinePlay.natType.DoubleNat = Cift NAT
+mainMenu.onlinePlay.natType.CarrierGradeNat = Operatör Seviyesi NAT (CGNAT)
+mainMenu.onlinePlay.connectionWarning = Uyari: Ag yapilandirmaniz diger oyuncularin baglanmasini engelleyebilir.
+mainMenu.onlinePlay.wipWarning = Bu deneysel bir ozelliktir ve ortaminiza agir bagimlidir. Calismazsa, lutfen <u><a href="joining-friends">{url}</a></u> adresindeki destek makalesine basvurun.
+
+mainMenu.servers.button.joinServer = Sunucuya Katil
+mainMenu.servers.button.editServer = Sunucuyu Duzenle
+mainMenu.servers.button.addServer = Sunucu Ekle
+
+mainMenu.servers.editPopup.addServer = Sunucu Ekle
+mainMenu.servers.editPopup.editServer = Sunucuyu Duzenle
+mainMenu.servers.editPopup.name = Isim
+mainMenu.servers.editPopup.error.invalidAddress = Lutfen sunucu icin gecerli bir adres girin
+mainMenu.servers.editPopup.error.invalidName = Lutfen sunucu icin gecerli bir isim girin
+
+mainMenu.servers.name = Isim
+mainMenu.servers.description = Aciklama
+mainMenu.servers.online = Cevrimici
+mainMenu.servers.tags = Etiketler
+mainMenu.servers.rating = Degerlendirme
+mainMenu.servers.ping = Ping
+
+mainMenu.servers.failedToFetch = Sunucu listesi alinamadi
+
+mainMenu.servers.details.host = Sunucu: {host}
+mainMenu.servers.details.languages = Desteklenen Diller: {languages}
+mainMenu.servers.details.uuid = UUID: {uuid}
+mainMenu.servers.details.online = Cevrimici: {online}
+mainMenu.servers.details.branch = Dal: {name}
+mainMenu.servers.details.favoriteYes = Favori: Evet
+mainMenu.servers.details.favoriteNo = Favori: Hayir
+
+mainMenu.servers.offline.title = Cok Oyunculu Kullanilamaz
+mainMenu.servers.offline.description.offline = Cevrimdisi moddasiniz.\n\
+    Cok oyunculu oynamak icin oyunu cevrimici modda yeniden baslatin.
+mainMenu.servers.offline.description.connecting = Hytale sunucularina baglaniyor, bir an sonra tekrar deneyin...
+mainMenu.servers.offline.description.unavailable = Hytale sunucularina ulasmada sorunlar yasadigimiz icin cok oyunculu su anda kullanilamaz. Daha sonra tekrar deneyin veya oyunu yeniden baslatin.
+
+# Worlds
+
+mainMenu.worldType = {worldType} Dunyasi
+mainMenu.worldTypes.adventure = Macera
+mainMenu.worldTypes.creative = Yaratimci
+mainMenu.worldTypes.exploration = Kesif
+
+mainMenu.worldCreation.creative.mainDescription = Avatar potansiyelinizi ortaya cikarin ve guclu yaratimci araclarla alaninizi gelistirin.
+mainMenu.worlds.creativeModeDescription = Avatar potansiyelinizi ortaya cikarin ve guclu yaratimci araclarla alaninizi gelistirin.
+mainMenu.worlds.selectWorld = Bir Dunya Secin
+mainMenu.worlds.selectWorldAppendix = Kaydedilmis bir dunya secin veya yeni bir tane baslatin
+mainMenu.worlds.editWorld = Dunyayi Duzenle
+mainMenu.worlds.failedToDeleteWorld = Dunya silinemedi
+mainMenu.worlds.settings = Ayarlar
+mainMenu.worlds.worldName = Dunya Ismi
+mainMenu.worlds.gamemode = Oyun Modu
+mainMenu.worlds.flatWorld = Duz Dunya
+mainMenu.worlds.randomWorld = Rastgele Dunya
+mainMenu.worlds.creativeMode = Yaratimci Mod
+mainMenu.worlds.creativeModeStandard = Standart
+mainMenu.worlds.creativeModeHub = Yaratimci Merkezi
+mainMenu.worlds.creativeModeGenerated = [TMP] Olusturulmus Dunya
+mainMenu.worlds.npcSpawning = NPC'ler
+mainMenu.worlds.noNpcSpawning = NPC Yok
+mainMenu.worlds.deleteWorld = Dunyayi Sil
+mainMenu.worlds.deleteWorldConfirmation = "{name}" dunyasini silmek istediginize emin misiniz?
+mainMenu.worlds.openFolder = Klasoru Ac
+mainMenu.worlds.createWorld = Dunya Olustur
+mainMenu.worlds.saveWorldSettings = Dunya Ayarlarini Kaydet
+mainMenu.worlds.newWorld = Yeni Dunya
+mainMenu.worlds.worldOptions = Dunya Secenekleri
+mainMenu.worlds.defaultWorldName = Yeni Dunya
+mainMenu.worlds.defaultSettings = Varsayilan Ayarlar
+mainMenu.worlds.customSettings = Ozel Ayarlar
+mainMenu.worlds.settings.pvp = PvP
+mainMenu.worlds.settings.enabled = Etkin
+mainMenu.worlds.settings.disabled = Devre Disi
+mainMenu.worlds.settings.fallDamage = Dusus Hasari
+mainMenu.worlds.settings.pauseTime = Zamani Duraklat
+mainMenu.worlds.settings.dayNightCycle = [TMP] Gun / Gece Dongusu
+mainMenu.worlds.settings.dayDuration = [TMP] Gun Suresi (saniye)
+mainMenu.worlds.settings.nightDuration = [TMP] Gece Suresi (saniye)
+mainMenu.worlds.settings.customTime = [TMP] Ozel Zaman
+mainMenu.worlds.settings.applyWorldSettings = Ayarlari Uygula
+mainMenu.worlds.settings.restoreSettings = Varsayilani Geri Yukle
+mainMenu.worlds.settings.deathPenalty = [TMP] Olumde Envanter Cezasi
+mainMenu.worlds.settings.deathPenalty.tooltip = [TMP] Oyuncunun olumunde uygulanacak envanter cezasini tanimlar.\n\
+<b><color is="#f1ba50">Yok</color></b>: Oyuncu olumde esya dusurmeyecektir.\n\
+<b><color is="#f1ba50">Tumunu Dusur</color></b>: Oyuncu olumde tum envanter esyalarini dusurecektir.\n\
+<b><color is="#f1ba50">Kismi Dusus</color></b>: Oyuncu sadece belirli bir miktarda olumde dusurmek icin yapilandirilmis esyalari dusurecektir.
+mainMenu.worlds.settings.resourceLoss = [TMP] Olumde Kaynak Kaybi %
+mainMenu.worlds.settings.durabilityLoss = [TMP] Olumde Dayaniklilik Kaybi %
+mainMenu.worlds.settings.deathPenaltyNone = [TMP] Yok
+mainMenu.worlds.settings.deathPenaltyDropAll = [TMP] Tumunu Dusur
+mainMenu.worlds.settings.deathPenaltyPartial = [TMP] Kismi Dusus
+
+mainMenu.worlds.adventureMode.wip.text = [Erken Erisim sirasinda Kullanilamaz]
+mainMenu.worlds.exploartionMode.wip.text = [Erken Erisim gelistirme onizlemesi]
+mainMenu.worlds.explorationModeDescription = Orbis'in bir Yankisini kesfedin. Insa edin, uretin, hayatta kalin ve kaybolan seyi geri yuklemenin bir yolunu bulun.
+mainMenu.worlds.worldDoesntExist.title = Bilinmeyen Dunya
+mainMenu.worlds.worldDoesntExist.message = Acmaya calistiginiz dunya mevcut degil.
+mainMenu.worlds.noModsFound = Mod bulunamadi
+mainMenu.worlds.mods = Modlar
+mainMenu.worlds.modType.pack = Paket
+mainMenu.worlds.modType.plugin = Eklenti
+
+mainMenu.assetEditor.errorModal.missingDirectory.title = Bir Klasor Secin
+mainMenu.assetEditor.errorModal.missingDirectory.text = Varlik editorunu kullanmadan once bir varlik yolu ayarlamaniz gerekir
+mainMenu.assetEditor.errorModal.invalidDirectory.title = Gecersiz Klasor
+mainMenu.assetEditor.errorModal.invalidDirectory.text = Varlik editoru icin secilen klasor gecerli bir varlik klasoru gibi gorunmuyor. Ortak ve Sunucu klasoru gereklidir
+mainMenu.assetEditor.errorModal.openSettingsButton = Ayarlari Ac
+
+# Early Access Panel
+mainMenu.earlyAccessPanel.title = Erken Erisim\nDuyuru
+mainMenu.earlyAccessPanel.text = Bu Hytale'in erken erisim surumudur; oyun hala aktif gelistirme asamasindadir. Tam surume dogru ilerlerken hatalar ve degisiklikler bekleyebilirsiniz.\n\nDesteginiz icin tesekkur ederiz!
+
+# === map ===
+map.title = Dunya Haritasi
+
+map.contextMenu.teleport = Isinlan
+map.contextMenu.selectLocation = Konum Sec
+map.contextMenu.deselectLocation = Konum Secimini Kaldir
+map.contextMenu.removeMarker = Isaretleyiciyi Kaldir
+
+map.disabled = Bilinmeyen konum
+
+map.actions.placeMarker = Isaretleyici Yerlestir
+map.actions.zoom = Yakınlastir/Uzaklastir
+map.actions.playerList = Oyuncu Listesi
+
+map.playerList.playerCount = ({players, number})
+map.playerList.playerCountWithMax = ({players, number}/{maxPlayers, number})
+map.playerList.worldOnly = Sadece Dunya
+map.playerList.titleWorld = Dunya Oyunculari
+map.playerList.titleServer = Sunucu Oyunculari
+map.playerList.inWorld = Bu oyuncu dunyanizda
+
+map.marker.localPlayer = Siz
+map.marker.targetLocation = Hedef Konum
+# === mediaBrowser ===
+mediaBrowser.popularVideos = Populer Videolar
+mediaBrowser.popularStreams = Populer Yayinlar
+mediaBrowser.search = "{query}" Ara
+mediaBrowser.currentlyPlaying = Su Anda Caliyor
+mediaBrowser.live = Canli
+
+mediaBrowser.youtube.errors.unreachable = YouTube'a ulasilamadi
+mediaBrowser.youtube.errors.requestFailed = YouTube'dan veri alinamadi
+
+# === menuOverlay ===
+menuOverlay.buttons.returnToGame = Oyuna Don
+menuOverlay.buttons.quitToDesktop = Masaustune Cik
+menuOverlay.buttons.quitToMainMenu = Ana Menuye Cik
+menuOverlay.buttons.codex = Kodeks
+menuOverlay.buttons.settings = Ayarlar
+menuOverlay.buttons.feedback = Hata veya Geri Bildirim Gonder
+menuOverlay.buttons.onlinePlay = Cevrimici Oyun
+
+# === myAvatar ===
+myAvatar.button.resetOptions = Avatar'i Sifirla
+myAvatar.button.resetClothing = Kiyafetleri Sifirla
+myAvatar.button.randomize = Secenekleri Rastgele Yap
+myAvatar.button.undo = Son Degisikligi Geri Al
+myAvatar.button.redo = Son Degisikligi Tekrar Yap
+myAvatar.button.playEmote = Animasyon Oynat
+
+myAvatar.playEmotePopup.title = Animasyon Oynat
+
+myAvatar.title = Avatar'i Ozellestir
+
+myAvatar.lockProperty = Rastgele butonunu kullanirken bu ozelligin degismesini durdurmak icin tiklayin
+myAvatar.unlockProperty = Rastgele butonunu kullanirken bu ozelligin degismesine izin vermek icin tiklayin
+
+myAvatar.synchronizeHairColor.enable = Sac renklerinin otomatik olarak eslesmesini saglamak icin tiklayin
+myAvatar.synchronizeHairColor.disable = Sac renginin otomatik olarak eslesmesini durdurmak icin tiklayin
+
+myAvatar.tabs.General = Genel
+myAvatar.tabs.Head = Bas
+myAvatar.tabs.BodyCharacteristic = Vucut Ozellikleri
+myAvatar.tabs.Underwear = Ic Camaşir
+myAvatar.tabs.Torso = Govde
+myAvatar.tabs.Capes = Pelerinler
+myAvatar.tabs.Legs = Bacaklar
+myAvatar.tabs.FacialHair = Yuz Kili
+myAvatar.tabs.Eyebrows = Kaslar
+myAvatar.tabs.Face = Yuz
+myAvatar.tabs.Ears = Kulaklar
+myAvatar.tabs.Mouth = Agiz
+myAvatar.tabs.Eyes = Gozler
+myAvatar.tabs.Haircut = Sac Kesimi
+myAvatar.tabs.Pants = Pantolon
+myAvatar.tabs.Overpants = Ust Pantolon
+myAvatar.tabs.Undertop = Alt Ust
+myAvatar.tabs.Overtop = Ust Ust
+myAvatar.tabs.Shoes = Ayakkabilar
+myAvatar.tabs.SkinFeature = Cilt Ozelligi
+myAvatar.tabs.HeadAccessory = Bas Aksesuari
+myAvatar.tabs.FaceAccessory = Yuz Aksesuari
+myAvatar.tabs.EarAccessory = Kulak Aksesuari
+myAvatar.tabs.Gloves = Eldivenler
+myAvatar.tabs.Cape = Pelerinler
+myAvatar.tabs.Emotes = Animasyonlar
+
+myAvatar.baseProperties.bodyType = Vucut Tipi
+myAvatar.baseProperties.skinTone = Ten Rengi
+myAvatar.baseProperties.options = Secenekler
+
+myAvatar.baseProperties.bodyTypes.masculine = Erkeksi
+myAvatar.baseProperties.bodyTypes.feminine = Kadinsi
+
+myAvatar.color = Renk
+
+myAvatar.variant = Secenek
+
+myAvatar.dropdown.filterBy = Filtrele:
+
+myAvatar.lockedCosmetics = Kilitli Kozmetikler
+
+myAvatar.unsavedChangesDialog.title = Kaydedilmemis degisiklikler
+myAvatar.unsavedChangesDialog.text = Avatar'inizde henuz kaydedilmemis degisiklikler yaptiniz.
+
+myAvatar.lockedCosmeticDialog.title = Kilitli Kozmetik Secildi
+myAvatar.lockedCosmeticDialog.text = Ozel bir surum gerektiren bir kozmetik sectiniz.\n\nYa bu secimi son gecerli secime geri alabilirsiniz ya da\nfarkli bir kozmetik secmek icin seciminizi duzenleyebilirsiniz.
+myAvatar.lockedCosmeticDialog.undoButton = Secimi Geri Al
+myAvatar.lockedCosmeticDialog.editButton = Secimi Duzenle
+
+myAvatar.failedToSaveDialog.title = Avatar kaydedilemedi!
+myAvatar.failedToSaveDialog.text = Avatar'inizi kaydetmeye calisirken bazi sorunlar yasiyoruz.\n\nLutfen daha sonra tekrar deneyin.
+myAvatar.failedToSaveDialog.button.tryAgain = Simdi Tekrar Dene
+myAvatar.failedToSaveDialog.button.ok = Tamam
+
+myAvatar.entitlement.gameFounder.titleSuffix = Cursebreaker Surumu Ozel
+myAvatar.entitlement.gameFounder.lockedMessage = Bu kozmetigi kullanmak icin Cursebreaker Surumuna ihtiyaciniz var.
+myAvatar.entitlement.gameFounder.description = Bu kısım Hytale'in Cursebreaker Surumuna ozeldir. Hytale Magazasinda mevcut surumunuzu yukselterek acin.
+
+myAvatar.entitlement.gameDeluxe.titleSuffix = Supporter Surumu Ozel
+myAvatar.entitlement.gameDeluxe.lockedMessage = [TMP] Bu kozmetigi kullanmak icin Supporter Surumuna ihtiyaciniz var.
+myAvatar.entitlement.gameDeluxe.description = Bu kısım Hytale'in Supporter Surumuna ozeldir. Hytale Magazasinda mevcut surumunuzu yukselterek acin.
+
+myAvatar.entitlement.gameStandard.titleSuffix = Erken Erisim Standart Surumu Ozel
+myAvatar.entitlement.gameStandard.lockedMessage = [TMP] Bu kozmetigi kullanmak icin Erken Erisim Standart Surumuna ihtiyaciniz var.
+myAvatar.entitlement.gameStandard.description = Bu kısım Hytale'in Erken Erisim Standart Surumuna ozeldir. Hytale Magazasinda mevcut surumunuzu yukselterek acin.
+
+myAvatar.entitlement.default.lockedMessage = Bu kozmetik kilitli oldugu icin kullanamazsiniz.
+
+myAvatar.offline.title = Avatar Olusturucu Kullanilamaz
+myAvatar.offline.description.offline = Cevrimdisi moddasiniz.\nAvatar olusturucuyu kullanmak icin oyunu cevrimici modda yeniden baslatin.
+myAvatar.offline.description.connecting = Hytale sunucularina baglaniyor, bir an sonra tekrar deneyin...
+myAvatar.offline.description.unavailable = Hytale sunucularina ulasmada sorunlar yasadigimiz icin Avatar olusturucu su anda kullanilamaz. Daha sonra tekrar deneyin veya oyunu yeniden baslatin.
+
+# === settings ===
+settings.title = Ayarlar
+
+settings.tabs.general = Genel
+settings.tabs.video = Video
+settings.tabs.audio = Ses
+settings.tabs.mouse = Fare
+settings.tabs.controls = Kontroller
+settings.tabs.gameplay = Oyun
+settings.tabs.prototype = Prototip
+
+settings.groups.mouse = Fare
+settings.groups.audioOutput = Cikis
+settings.groups.general = Genel
+settings.groups.gameplay = Oyun
+settings.groups.rendering = Render
+settings.groups.advancedRendering = Gelismis Render
+settings.groups.ui = Kullanici Arayuzu
+settings.groups.development = Gelistirme
+settings.groups.language = Dil
+settings.groups.options = Secenekler
+settings.groups.controls.movement = Hareket
+settings.groups.controls.actions = Islemler
+settings.groups.controls.creative = Yaratimci
+settings.groups.controls.menus = Menuler
+settings.groups.controls.blockPlacement = Blok Yerlestirme
+settings.groups.controls.builderTools = Insaatci Araclari
+settings.groups.controls.misc = Cesitli
+settings.groups.controls.debug = Hata Ayiklama
+settings.groups.builderTools = Insaatci Araclari
+settings.groups.movement = Hareket
+settings.groups.mantling = Tırmanma
+settings.groups.camera = Kamera
+settings.groups.sprint = Kosu Kuvveti
+settings.groups.slide = Kayma Kuvveti
+settings.groups.stamina = Dayaniklilik
+settings.groups.weaponPullback = Silah Geri Cekme
+settings.groups.entityui = Varlik UI
+settings.groups.playselect = Oynat Secim Araci
+settings.groups.playpaint = Oynat Boya Araci
+settings.groups.paint = Boya
+settings.groups.debug = Hata Ayiklama
+settings.groups.mounts = Binekler
+settings.groups.creativeMode = Yaratimci Mod
+settings.groups.pickupLocations = Tercih Edilen Alim Konumlari
+settings.groups.accessibility = Erisilebilirlik
+
+settings.percentagePlayGizmoLength = Gizmo Renderi Icin Yuzde Genislik
+settings.minPlaySelectGizmoSize = Minimum Gizmo Boyutu
+settings.maxPlaySelectGizmoSize = Maksimum Gizmo Boyutu
+
+settings.paintOperationIgnoreHistoryLength = Oynat Boya Gormezden Gel Gecmis Uzunlugu
+
+# Quick Settings Categories
+settings.category.movementFlight = Hareket ve Ucus
+settings.category.placementSettings = Yerlestirme Ayarlari
+settings.category.toolSettings = Arac Ayarlari
+settings.category.brushSettings = Firca Ayarlari
+settings.category.soundSettings = Ses Ayarlari
+settings.category.selectionSettings = Secim Ayarlari
+settings.category.uiVisibility = UI Gorunurlugu
+settings.category.displayNotifications = Goruntuleme ve Bildirimler
+
+# Quick Settings Labels
+settings.noClip = Kliplenme Yok
+settings.flightMode = Ucus Modu
+settings.flightMode.hover = Asili Kal
+settings.flightMode.directional = Yonlu
+settings.flightInertia = Ucus Ataleti
+settings.flightSpeedMultiplier = Hareket Hizi
+settings.airPlacement = Hava Yerlestirme
+settings.allowNPCDetection = NPC Tespitine Izin Ver
+settings.respondToHit = Vurusa Tepki Ver
+settings.toolReachDistance = Arac Ulasim Mesafesi
+settings.toolDelayMin = Arac Gecikme Minimum
+settings.brushOpacity = Firca Opakligi
+settings.enableBrushShapeRendering = Firca Sekil Renderini Etkinlestir
+settings.brushSoundsEnabled = Firca Sesleri
+settings.brushSoundVolume = Firca Sesi Sesi
+settings.selectionOpacity = Secim Opakligi
+settings.selectionPanelOpacity = Secim Paneli Opakligi
+settings.displayLegend = Aciklama Goster
+settings.showToolNotifications = Arac Bildirimlerini Goster
+settings.laserPointerColor = Lazer Isaretleyici Rengi
+settings.laserPointerColor.description = Lazer isaretleyici araci icin varsayilan hex rengi
+settings.fullbright = Tam Aydinlik
+
+# Quick Settings UI
+settings.dragToReorder = Yeniden siralamak icin surukle
+settings.resetToDefaults = Varsayilanlara Sifirla
+settings.resetToDefaults.tooltip = Tum hizli ayarlari varsayilan degerlerine sifirla
+
+settings.resetOptions = Secenekleri Sifirla
+settings.useSystemLanguage = Sistem Dilini Kullan
+settings.language = Dil
+settings.language.description = Oyunun gosterdigi dili ayarlar.
+settings.fullscreen = Tam Ekran
+settings.noAuthName = Kimlik Dogrulama Ismi Yok
+settings.resolution = Cozunurluk
+settings.windowSize = Pencere Boyutu
+settings.windowResize = Boyutlandirmak Icin Sec
+settings.customResolution = Ozel ({size})
+settings.graphicsPreset = Grafik On Ayarı
+settings.graphicsPreset.low = Dusuk
+settings.graphicsPreset.low.description = Sadakati performans uzerinde onceliklendirir.
+settings.graphicsPreset.medium = Orta
+settings.graphicsPreset.medium.description = Sadakat ve performans dengesi.
+settings.graphicsPreset.high = Yuksek
+settings.graphicsPreset.high.description = Performansi sadakat uzerinde onceliklendirir.
+settings.graphicsPreset.epic = Epik
+settings.graphicsPreset.epic.description = Her seyden once kalite.
+settings.graphicsPreset.custom = Ozel
+settings.maximized = Maksimize
+settings.vsync = V-Sync
+settings.vsync.description = V-Sync'i etkinlestirmek, saniye basina kare sayisini monitörunuzun yenileme hizina sinirlayacaktir.
+settings.fpsLimit = Maksimum FPS
+settings.unlimitedFps = Sinirsiz FPS
+settings.viewDistance = Gorus Mesafesi
+settings.viewDistance.description = Gorus mesafesi ne kadar uzagi gorebileceginizi belirler.
+settings.viewDistance.performanceWarning = Onerilen: 64GB RAM ve 16GB VRAM.
+settings.fieldOfView = Gorus Alani
+settings.sprintFovEffect = Kosu Gorus Alani Etkisi
+settings.sprintFovIntensity = Kosu Gorus Alani Yogunlugu
+settings.viewBobbingEffect = Goruntuleme Sallanma Etkisi
+settings.viewBobbingIntensity = Goruntuleme Sallanma Yogunlugu
+settings.cameraShakeEffect = Kamera Sallanma Etkisi
+settings.firstPersonCameraShakeIntensity = Birinci Kisi Kamera Sallanma Yogunlugu
+settings.thirdPersonCameraShakeIntensity = Ucuncu Kisi Kamera Sallanma Yogunlugu
+settings.creativeInteractionDistance = Yaratimci Etkilesim Mesafesi
+settings.adventureInteractionDistance = Genel Etkilesim Mesafesi
+settings.gizmoScaleMultiplier = Donus / Tercume Gizmo UI Olcegi
+settings.laserPointerColor = Varsayilan Lazer Isaretleyici Rengi
+settings.laserPointerColor.description = Lazer isaretleyici araci icin varsayilan hex rengi (ornegin #3CFAE6)
+settings.useBlockSubfaces = Blok Alt Yuzlerini Kullan
+settings.displayBlockSubfaces = Blok Alt Yuzlerini Goster
+settings.displayBlockBoundaries = Blok Sinirlarini Goster
+settings.placeBlocksAtRange = Mesafede Blok Yerlestir
+settings.placeBlocksAtRangeInAdventureMode = ---> Yaratimci Mod Disinda
+settings.blockPlacementSupportValidation = Blok Yerlestirme Destek Dogrulamasi
+settings.blockPlacementFluidity = Yaratimci Blok Yerlestirme Akiciligi
+settings.resetMouseSensitivityDuration = Tam Fare Hassasiyetine Donme Zamani
+settings.automaticRenderScale = Otomatik Render Olcegi
+settings.automaticRenderScale.description = GPU'niza gore render olcegini otomatik olarak ayarlayip ayarlamayacagini belirler.
+settings.renderScale = Render Olcegi
+settings.renderScale.description = Oyunu render etmek icin ekran cozunurlugunun yuzdesi.
+settings.placementPreview = Blok Yerlestirme Onizleme
+settings.placementPreview.description = Hangi blok tipleri icin bir yerlestirme onizlemesi gosterilecegini tanimlar (elde bir blok tutarken).\n\
+<b><color is="#f1ba50">Yok</color></b>: Onizleme hic gosterilmeyecektir.\n\
+<b><color is="#f1ba50">Tumu</color></b>: Onizleme herhangi bir blok icin gosterilecektir.\n\
+<b><color is="#f1ba50">Cok Parcali</color></b>: Onizleme sadece tek bir bloktan daha buyuk bloklar icin gosterilecektir.
+settings.placementPreview.none = Yok
+settings.placementPreview.all = Tumu
+settings.placementPreview.multipart = Cok Parcali
+settings.displayCombatText = Hasar Sayilarini Goster
+settings.displayCombatText.description = Sunucu tarafindan etkinlestirildiginde hasar sayilari gibi ogelerin gosterilip gosterilmeyecegi. Sunucu bu ozelligi devre disi birakirsa, bu ayardan bagimsiz olarak savas metni gosterilmeyecektir.
+settings.displayEntityStatBars = Varlik Saglik Cubuklarini Goster
+settings.displayEntityStatBars.description = Sunucu tarafindan etkinlestirildiginde durum cubugu UI'nin (yani saglik) varliklarin uzerinde gosterilip gosterilmeyecegi. Sunucu bu ozelligi devre disi birakirsa, bu ayardan bagimsiz olarak saglik cubuklari gosterilmeyecektir.
+settings.displayNetworkQualityWarnings = Ag Kalitesi Uyarilarini Goster
+settings.displayNetworkQualityWarnings.description = HUD'de ag kalitesi uyari ikonlarinin gosterilip gosterilmeyecegi.
+settings.displayInputBindingsOnHud = HUD'de Giris Baglamalarini Goster
+settings.displayInputBindingsOnHud.description = HUD'de baglamsal kisa tuslarin gosterilip gosterilmeyecegi.
+settings.hideHud = HUD'yi Gizle
+settings.hideHud.description = Tum HUD ogelerini gizle.
+settings.hideHotbar = Hizli Erisim Cubugunu Gizle
+settings.hideHotbar.description = Hizli erisim cubugunu ve ilgili ogeleri gizle.
+settings.hideCompass = Pusulayi Gizle
+settings.hideCompass.description = Pusulayi gizle.
+settings.hideNotifications = Bildirimleri Gizle
+settings.hideNotifications.description = Bildirim acilir pencerelerini gizle.
+settings.hideChat = Sohbeti Gizle
+settings.hideChat.description = Sohbet penceresini gizle (mesaj almayi engellemez).
+settings.hideHeldItem = Tutulan Esyayi Gizle
+settings.hideHeldItem.description = Elinizde tutulan esyayi gizle (birinci kisi gorunumu).
+settings.maxChatMessages = Maks Sohbet Mesajlari
+settings.maxChatMessages.description = Sohbette listelenmesi gereken maksimum mesaj sayisini belirler.
+settings.cameraBasedFlying = Kamera Goreceli Ucus
+settings.cameraBasedFlying.description = Ucusun nasil davrandigini tanimlar.\n\
+<b><color is="#f1ba50">Acik</color></b>: Baktiginiz yone gore hareket edeceksiniz.\n\
+<b><color is="#f1ba50">Kapali</color></b>: Nereye bakarsaniz bakin her zaman ayni sekilde hareket edeceksiniz.
+settings.showToolNotifications = Arac Bildirimlerini Goster
+settings.cameraShoulder = Kamera Omuz
+settings.cameraShoulder.left = Sol
+settings.cameraShoulder.right = Sag
+settings.cameraShoulder.description = Ucuncu kiside hangi omuzun uzerinden bakilacagini ayarlar.
+
+settings.lod = Dunya Detayi
+settings.lod.lowest = En Dusuk
+settings.lod.low = Dusuk
+settings.lod.medium = Orta
+settings.lod.high = Yuksek
+settings.lod.maximum = Maksimum
+settings.lod.description = Dunyadaki detay seviyesini kontrol eder. Daha yuksek on ayarlar mesafedeki nesnelerin render kalitesini artirir, ancak performansa agir bir maliyet getirir.
+settings.antialiasing = Kenar Yumusatma
+settings.antialiasing.description = Goruntu kalitesini artirmak icin geometrinin kenarlarini yumusatir. Daha dusuk bir render olcegi kullanirken, yuksek kaliteli kenar yumusatma kullanilması onerilir.
+settings.antialiasing.off = Kapali
+settings.antialiasing.fxaa = Dusuk (FXAA)
+settings.antialiasing.taa = Yuksek (TAA)
+settings.shaderQuality = Golgelendirme Kalitesi
+settings.shaderQuality.low = Dusuk
+settings.shaderQuality.medium = Orta
+settings.shaderQuality.high = Yuksek
+settings.shaderQuality.description = Isiklandirma ve golgelendirme efektleri icin kullanilan cozunurluk.
+settings.bloomQuality = Parlama
+settings.bloomQuality.off = Kapali
+settings.bloomQuality.low = Dusuk
+settings.bloomQuality.medium = Orta
+settings.bloomQuality.high = Yuksek
+settings.bloomQuality.description = Parlama, yogun isik kaynaklarinin etrafina parlayan bir efekt ekler. Daha yuksek on ayarlar efektin kalitesini artirir, ancak yogunlugunu artirmaz.
+settings.dofQuality = DOF
+settings.dofQuality.off = Kapali
+settings.dofQuality.low = Dusuk
+settings.dofQuality.medium = Orta
+settings.dofQuality.high = Yuksek
+settings.dofQuality.description = Mesafedeki odak disi nesneleri bulaniklastirir
+settings.useSunshaft = Gun Isinlari
+settings.useSunshaft.description = Yapraklardan gecen gun isinlarini gosterir.
+settings.useFoliageFading = Bitki Otesi Solma
+settings.useFoliageFading.description = Performansi artirmak ve titresimi azaltmak icin mesafedeki bitki otesinin solmasini etkinlestirir.
+settings.shadowQuality = Golge Kalitesi
+settings.shadowQuality.low = Dusuk
+settings.shadowQuality.medium = Orta
+settings.shadowQuality.high = Yuksek
+settings.shadowQuality.description = Gercek zamanli golgelerin kalitesini ve ne sıklıkla guncellendigini kontrol eder.
+settings.particleQuality = Parcacik Kalitesi
+settings.particleQuality.medium = Orta
+settings.particleQuality.high = Yuksek
+settings.particleQuality.description = Parcacik efektlerinin kalitesini ve yogunlugunu kontrol eder.
+settings.depthBuffer = Derinlik Tamponu Hassasiyeti
+settings.depthBuffer.low = Dusuk
+settings.depthBuffer.high = Yuksek
+settings.depthBuffer.description = Render edilen goruntunun derinlik hassasiyetini kontrol eder. Daha yuksek hassasiyetli derinlik tamponu kullanmak, mesafedeki nesnelerin titresimini azaltmaya yardimci olabilir.
+
+settings.joinCameraPref = Kamera Tercihi (Dogurma Uzerinde)
+settings.joinCameraPref.description = Bir dunyaya katildiginizda hangi kamera bakis acisini tercih edeceginiz.\n\
+Sunucular bunu gecersiz kilabilir!
+settings.joinCameraPref.first = Birinci Kisi
+settings.joinCameraPref.third = Ucuncu Kisi
+settings.joinCameraPref.lastUsed = Son Kullanilani Hatirla
+
+settings.diagnosticMode = Tanilama Modu
+settings.diagnosticMode.description = Icerik olusturmayi planliyorsaniz tanilama modunu etkinlestirmeniz onerilir. Tanilama modu, yanlis yapilandirilmis icerik hakkinda daha fazla hata mesaji yazdirir.
+
+settings.useBlockyModelShaderWorkaround = Bloklu Model Gecici Cozumu
+settings.useBlockyModelShaderWorkaround.description = NVIDIA donanimina sahip bazi Mac'lerde, bu gecici cozum olmadan model renderi cok yavastir. Degisikligin etkili olmasi icin oyunu yeniden baslatmak gerekir.
+
+settings.mouseRawInputMode = Ham Giris Modu
+settings.mouseInverted = Fareyi Ters Cevir
+settings.mouseXSpeed = Yukari/Asagi Hizi
+settings.mouseYSpeed = Sol/Sag Hizi
+settings.invertMouseWheelScrollDirection = Fare Tekerlegi Kaydirma Yonunu Ters Cevir
+settings.invertMouseWheelScrollDirection.description = Fare tekerlegi kaydirma yonunu ters cevirir (ozellikle hizli erisim cubugu yuvasini degistirirken kullanilir).
+settings.outputDevice = Cikis Cihazi
+settings.masterVolume = Ana Ses
+settings.musicVolume = Muzik Sesi
+settings.sfxVolume = SFX Sesi
+settings.ambientVolume = Ortam Sesi
+settings.uiVolume = UI Sesi
+settings.outputMode = Cikis Modu
+settings.outputMode.description = Ses cikis kanali yapilandirmasini kontrol eder.\n\
+<b><color is="#f1ba50">Varsayilan</color></b>: Secilen cikis cihaziniz icin en iyi secenegi otomatik olarak secer.
+settings.outputMode.default = Varsayilan
+settings.outputMode.stereo = Stereo (Hoparlorler)
+settings.outputMode.stereoHrtf = Stereo (Kulakliklar)
+settings.outputMode.mono = Mono
+settings.dynamicUiScaling = Dinamik UI Olceklendirme
+settings.uiScale = UI Olcegi
+
+settings.defaultAudioDevice = Varsayilan
+
+settings.bindingPopup.bind = "{binding}" Bagla
+settings.bindingPopup.pressKey = Herhangi bir tusa basin veya iptal etmek icin esc'ye basin
+settings.bindings.clear = Mevcut kisa tusu kaldir.
+
+settings.bindings.MoveForwards = Ileri Hareket Et
+settings.bindings.MoveBackwards = Geri Hareket Et
+settings.bindings.StrafeLeft = Sola Hareket Et
+settings.bindings.StrafeRight = Saga Hareket Et
+settings.bindings.Jump = Zipla
+settings.bindings.Crouch = Cukme/Kay/Yuvarlan
+settings.bindings.Crouch.description = <b>Kay</b>: Kaymak icin kosarken bu kisa tusa basin.\n<b>Yuvarlan</b>: Yuvarlanmak icin dusarken bu kisa tusa basin.
+settings.bindings.Sprint = Kos
+settings.bindings.FlyUp = Yukari Uc
+settings.bindings.FlyDown = Asagi Uc
+settings.bindings.Walk = Yuru
+settings.bindings.Chat = Sohbeti Ac/Kapat
+settings.bindings.ShowPlayerList = Oyuncu Listesini Goster
+settings.bindings.OpenInventory = Envanteri Ac
+settings.bindings.OpenMap = Haritayi Ac
+settings.bindings.OpenDevTools = Gelistirici Araclari Ac
+settings.bindings.DropItem = Esyayi Dusur
+settings.bindings.ShowUtilitySlotSelector = Yararli Yuva Seciciyi Goster
+settings.bindings.ToggleBuilderToolsLegend = Insaatci Araclari Aciklamasini Ac/Kapat
+settings.bindings.OpenToolsSettings = Yaratimci Araclari Ac
+
+settings.bindings.ToolPaintBrush = Boya Fircasi Araci
+settings.bindings.ToolSculptBrush = Heykel Fircasi Araci
+settings.bindings.ToolSelectionTool = Secim Araci
+settings.bindings.ToolPaste = Yapistirma Araci
+settings.bindings.ToolLine = Cizgi Araci
+
+settings.bindings.SwitchCameraMode = Kamera Modunu Degistir
+settings.bindings.ActivateCameraRotation = Kamera Donusunu Etkinlestir
+settings.bindings.ToggleProfiling = Profillemeyi Ac/Kapat
+settings.bindings.SwitchHudVisibility = HUD Gorunurlugunu Degistir
+settings.bindings.ToggleFullscreen = Tam Ekrani Ac/Kapat
+settings.bindings.Command = Komut
+settings.bindings.Command.description = Sunucu komutu girmek icin '/' zaten yazilmis olarak sohbet penceresini acmak icin basin. Sunucu komutlarinin listesi /help yazarak kullanilabilir.
+settings.bindings.TakeScreenshot = Ekran Goruntusu Al
+settings.bindings.IncreaseSpeedMultiplier = Hiz Carpanini Artir
+settings.bindings.DecreaseSpeedMultiplier = Hiz Carpanini Azalt
+settings.bindings.ToggleCreativeCollision = Yaratimci Carpismayi Ac/Kapat
+settings.bindings.ToggleFlyCamera = Ucus Kamerasi Ac/Kapat
+settings.bindings.ToggleDebugScreens = Hata Ayiklama Ekranlarini Ac/Kapat
+
+settings.bindings.BlockInteractAction = Bir Blok ile Etkilesim Kur
+settings.bindings.RotateBlock = Bir Bloku Dondur
+settings.bindings.PrimaryItemAction = Birincil Islem
+settings.bindings.SecondaryItemAction = Ikincil Islem
+settings.bindings.TertiaryItemAction = Ucuncu Islem
+settings.bindings.PickBlock = Bir Blok Sec
+settings.bindings.SwitchGameMode = Oyun Modunu Degistir
+settings.bindings.ToggleBlockPreview = Blok Onizlemesini Ac/Kapat
+settings.bindings.OpenMachinimaEditor = Machinima Editorunu Ac
+settings.bindings.OpenBuilderToolsUI = Insaatci Araclari UI'yi Ac
+settings.bindings.HotbarSlot1 = Hizli Erisim Yuvasi 1
+settings.bindings.HotbarSlot2 = Hizli Erisim Yuvasi 2
+settings.bindings.HotbarSlot3 = Hizli Erisim Yuvasi 3
+settings.bindings.HotbarSlot4 = Hizli Erisim Yuvasi 4
+settings.bindings.HotbarSlot5 = Hizli Erisim Yuvasi 5
+settings.bindings.HotbarSlot6 = Hizli Erisim Yuvasi 6
+settings.bindings.HotbarSlot7 = Hizli Erisim Yuvasi 7
+settings.bindings.HotbarSlot8 = Hizli Erisim Yuvasi 8
+settings.bindings.HotbarSlot9 = Hizli Erisim Yuvasi 9
+settings.bindings.Ability1ItemAction = Yetenek 1 Kullan
+settings.bindings.Ability2ItemAction = Yetenek 2 Kullan
+settings.bindings.Ability3ItemAction = Yetenek 3 Kullan
+settings.bindings.UndoItemAction = Geri Al
+settings.bindings.RedoItemAction = Tekrar Yap
+settings.bindings.AddRemoveFavoriteMaterialItemAction = Favori Malzeme Ekle/Kaldir
+settings.bindings.DismountAction = Bine/In
+settings.bindings.AlternatePlaySculptBrushModeModifier = Heykel Fircasi Degistiricisini Degistir
+settings.bindings.UsePaintModeForBrush = Firca Icin Boya Modunu Kullan
+settings.bindings.SelectBlockFromSet = Setten Blok Sec
+settings.bindings.PastePreview = Yapistirma Onizleme
+settings.bindings.ToggleFlyCameraControlTarget = Ucus Kamerasi Kontrol Hedefini Ac/Kapat
+settings.bindings.ToggleFlyCameraControlTarget.description = Ucus kamerasi tarafindan kontrol edilen hedefi ac/kapat, ya kameranin kendisi ya da oyuncu.
+settings.bindings.PreviousBuilderToolsLegendPage = Aciklama - Onceki Sayfa
+settings.bindings.NextBuilderToolsLegendPage = Aciklama - Sonraki Sayfa
+
+settings.autoJumpObstacle = Otomatik Yukari Cik
+settings.autoJumpObstacle.description = Bu ayar etkinlestirildiginde, maksimum yuksekligi 1 birim olan bloklarin uzerine otomatik olarak yuruyeceksiniz.
+settings.enableUtilityQuickSwap = Yararli Hizli Degistirmeyi Etkinlestir
+settings.enableUtilityQuickSwap.description = Etkinlestirildiginde, kisa tusa dokunmak yararli tekerleginizdeki bir sonraki esyaya aninda gecis yapacaktir.
+settings.enableArachnophobiaMode = Araknofobi Modunu Etkinlestir
+settings.enableArachnophobiaMode.description = Etkinlestirildiginde, orumcekler baska bir modelle degistirilecektir (sunucu varsayilani bir yengectir).\n\n<b><color is="#b32626">Bu ayar etkili olmasi icin ana menuye donmeniz gerekir!</color></b>
+settings.autoJumpGap = Bosluklarin Uzerinden Otomatik Zipla
+settings.builderMode = Insaatci Modu
+settings.builderMode.tooltip = Acik VE Yaratimci moddayken, bazi ozellikleri devre disi birakir (yani dusus efektleri, bas sallanmasi, vb...)
+
+settings.mantling = Tırmanmayi Etkinlestir/Devre Disi Birak
+settings.minVelocityMantling = Tırmanmak icin minimum Y hizi
+settings.maxVelocityMantling = Tırmanmak icin maksimum Y hizi
+settings.jumpForceSpeedMultiplierStep = Hiz seviyesi artisi basina eklenen ziplama kuvveti
+settings.maxJumpForceSpeedMultiplier = Ziplama kuvvetine eklenen maksimum deger
+settings.mantlingCameraOffsetY = Tırmanma Kamera Ofseti Y
+settings.mantleBlockHeight = Tırmanma Blok Yuksekligi
+
+settings.sprintForce = Kosu Kuvveti
+settings.sprintAccelerationDuration = Ivmelenme Suresi
+settings.sprintDecelerationDuration = Yavaslama Suresi
+settings.sprintAccelerationEasingType = Ivmelenme Yumusatma Tipi
+settings.sprintDecelerationEasingType = Yavaslama Yumusatma Tipi
+
+settings.slideDecelerationEasingType = Yavaslama Yumusatma Tipi
+settings.slideDecelerationDuration = Yavaslama Suresi
+
+settings.staminaLowAlertPercent = Dayaniklilik Dusuk Uyari Yuzdesi
+settings.staminaDebugInfo = Dayaniklilik Hata Ayiklama Bilgisini Goster
+
+settings.weaponPullback = Silah Geri Cekme
+settings.itemAnimationsClipGeometry = Esya Animasyonlari Geometriyi Kırp (Animasyon Basina)
+settings.itemsClipGeometry = Esyalar Geometriyi Kırp (Esya Basina)
+settings.overrideFirstPersonAnimations = Birinci Kisi Animasyonlarini Gecersiz Kil Kullan
+
+settings.showEntityMarkers = Varlik Isaretleyicilerini Goster
+
+settings.entityUIMaxEntities = Maks Varliklar
+settings.entityUIMaxDistance = Maks Mesafe
+settings.entityUIHideDelay = Gizleme Gecikmesi
+settings.entityUIFadeInDuration = Belirme Suresi
+settings.entityUIFadeOutDuration = Solma Suresi
+
+settings.mountMinTurnRate = Min Donus Hizi
+settings.mountMinTurnRate.tooltip = Binegin donebilecegi minimum hiz (saniye basina derece)
+settings.mountMaxTurnRate = Maks Donus Hizi
+settings.mountMaxTurnRate.tooltip = Binegin donebilecegi maksimum hiz (saniye basina derece)
+settings.mountSpeedMinTurnRate = Hiz Min Donus Hizi
+settings.mountSpeedMinTurnRate.tooltip = Bu hizdan ve uzerinden, min donus hizi uygulanacaktir (daha yuksek hiz = daha yavas donus)
+settings.mountSpeedMaxTurnRate = Hiz Maks Donus Hizi
+settings.mountSpeedMaxTurnRate.tooltip = Bu hizdan ve altindan, maks donus hizi uygulanacaktir (daha yuksek hiz = daha yavas donus)
+settings.mountForwardsAccelerationEasingType = Ileri Ivmelenme Yumusatma Tipi
+settings.mountForwardsAccelerationEasingType.tooltip = Ileri ivmelenme icin kullanilacak yumusatma egrisi
+settings.mountForwardsDecelerationEasingType = Ileri Yavaslama Yumusatma Tipi
+settings.mountForwardsDecelerationEasingType.tooltip = Ileri yavaslama icin kullanilacak yumusatma egrisi
+settings.mountBackwardsAccelerationEasingType = Geri Ivmelenme Yumusatma Tipi
+settings.mountBackwardsAccelerationEasingType.tooltip = Geri ivmelenme icin kullanilacak yumusatma egrisi
+settings.mountBackwardsDecelerationEasingType = Geri Yavaslama Yumusatma Tipi
+settings.mountBackwardsDecelerationEasingType.tooltip = Geri yavaslama icin kullanilacak yumusatma egrisi
+settings.mountForwardsAccelerationDuration = Ileri Ivmelenme Suresi
+settings.mountForwardsAccelerationDuration.tooltip = Ileri kosarken maks hiza ulasmak icin gecen sure
+settings.mountForwardsDecelerationDuration = Ileri Yavaslama Suresi
+settings.mountForwardsDecelerationDuration.tooltip = Ileri kostuktan sonra bos duruma ulasmak icin gecen sure
+settings.mountBackwardsAccelerationDuration = Geri Ivmelenme Suresi
+settings.mountBackwardsAccelerationDuration.tooltip = Geri kosarken maks hiza ulasmak icin gecen sure
+settings.mountBackwardsDecelerationDuration = Geri Yavaslama Suresi
+settings.mountBackwardsDecelerationDuration.tooltip = Geri kostuktan sonra bos duruma ulasmak icin gecen sure
+settings.mountForcedAccelerationMultiplierSetting = Zorunlu Ivmelenme Carpani
+settings.mountForcedAccelerationMultiplierSetting.tooltip = Kosarken Kosu girisine basildiginda ivmelenme suresini azaltmak icin kullanilan carpan
+settings.mountForcedDecelerationMultiplierSetting = Zorunlu Yavaslama Carpani
+settings.mountForcedDecelerationMultiplierSetting.tooltip = Mevcut hizdan zıt hareket girisine basildiginda yavaslama suresini azaltmak icin kullanilan carpan
+settings.mountRequireNewInput = Zorunlu Yavaslamadan Sonra Yeni Giris Gerektir
+settings.mountRequireNewInput.tooltip = Zorunlu bir yavaslamadan sonra tekrar hareket etmek icin hareket girisini birakip basmaniz gerekip gerekmedigi
+settings.displayTempPrefix = Metinde [TMP] Etiketlerini Goster
+
+settings.armorItemsPickupLocation = Zirh Esyalari
+settings.armorItemsPickupLocation.description = Alim sirasinda esyalari saklarken oncelik verilecek konumu tanimlar.\n\
+<b><color is="#f1ba50">Hizli Erisim Cubugu</color></b>: Yeni esyalar once hizli erisim cubuguna gidecektir, doldugunda envantere gidecektir.\n\
+<b><color is="#f1ba50">Envanter</color></b>: Yeni esyalar once envantere gidecektir, doldugunda hizli erisim cubuguna gidecektir.
+
+settings.weaponAndToolItemsPickupLocation = Silah ve Alet Esyalari
+settings.weaponAndToolItemsPickupLocation.description = Alim sirasinda esyalari saklarken oncelik verilecek konumu tanimlar.\n\
+<b><color is="#f1ba50">Hizli Erisim Cubugu</color></b>: Yeni esyalar once hizli erisim cubuguna gidecektir, doldugunda envantere gidecektir.\n\
+<b><color is="#f1ba50">Envanter</color></b>: Yeni esyalar once envantere gidecektir, doldugunda hizli erisim cubuguna gidecektir.
+
+settings.usableItemsPickupLocation = Kullanilabilir Esyalar
+settings.usableItemsPickupLocation.description = Alim sirasinda esyalari saklarken oncelik verilecek konumu tanimlar.\n\
+<b><color is="#f1ba50">Hizli Erisim Cubugu</color></b>: Yeni esyalar once hizli erisim cubuguna gidecektir, doldugunda envantere gidecektir.\n\
+<b><color is="#f1ba50">Envanter</color></b>: Yeni esyalar once envantere gidecektir, doldugunda hizli erisim cubuguna gidecektir.
+
+settings.solidBlockItemsPickupLocation = Kati Blok Esyalari
+settings.solidBlockItemsPickupLocation.description = Alim sirasinda esyalari saklarken oncelik verilecek konumu tanimlar.\n\
+<b><color is="#f1ba50">Hizli Erisim Cubugu</color></b>: Yeni esyalar once hizli erisim cubuguna gidecektir, doldugunda envantere gidecektir.\n\
+<b><color is="#f1ba50">Envanter</color></b>: Yeni esyalar once envantere gidecektir, doldugunda hizli erisim cubuguna gidecektir.
+
+settings.miscItemsPickupLocation = Cesitli Esyalar
+settings.miscItemsPickupLocation.description = Alim sirasinda esyalari saklarken oncelik verilecek konumu tanimlar.\n\
+<b><color is="#f1ba50">Hizli Erisim Cubugu</color></b>: Yeni esyalar once hizli erisim cubuguna gidecektir, doldugunda envantere gidecektir.\n\
+<b><color is="#f1ba50">Envanter</color></b>: Yeni esyalar once envantere gidecektir, doldugunda hizli erisim cubuguna gidecektir.
+
+settings.pickupLocation.hotbar = Hizli Erisim Cubugu
+settings.pickupLocation.storage = Envanter
+
+settings.cameraBasedClimbing = Kamera Goreceli Tırmanma
+settings.cameraBasedClimbing.description = Tırmanmanin nasil davrandigini tanimlar.\n\
+<b><color is="#f1ba50">Acik</color></b>: Ileri basarken, baktiginiz yone gore hareket edeceksiniz.\n\
+<b><color is="#f1ba50">Kapali</color></b>: Nereye bakarsaniz bakin her zaman ayni sekilde hareket edeceksiniz.
+
+settings.crouchBehavior = Cukme Davranisi
+settings.sprintBehavior = Kosu Davranisi
+settings.walkBehavior = Yurume Davranisi
+settings.inputMode.hold = Basili Tut
+settings.inputMode.toggle = Ac/Kapat
+
+settings.resetToDefaultsConfirmationModal.title = Ayarlari Sifirla
+settings.resetToDefaultsConfirmationModal.text = Tum ayarlari varsayilan degerlerine sifirlamak istediginize emin misiniz?
+# === timeline ===
+timeline.frame = Kare
+timeline.currentFrame = Kare: {frame, number}
+
+timeline.tabs.properties = Ozellikler
+timeline.tabs.events = Olaylar
+
+timeline.toolbar.addActor = Aktor Ekle
+timeline.toolbar.restart = Yeniden Baslat ({keybind})
+timeline.toolbar.togglePause = Duraklatmayi Ac/Kapat ({keybind})
+timeline.toolbar.toggleLoop = Donguyu Ac/Kapat
+
+timeline.events.add = Olay Ekle
+
+# === Feedback Dialog ===
+feedback.title = Hata veya Geri Bildirim Gonder
+feedback.selectType = Ne gondermek istersiniz?
+
+feedback.feedback.title = Geri Bildirim Gonder
+feedback.feedback.description = Dusuncelerinizi ve onerilerinizi paylasarak Hytale'i gelistirmemize yardimci olun.
+feedback.feedback.button.label = Geri Bildirim
+feedback.feedback.button.tooltip = Geri bildirim gonder
+
+feedback.bugreport.title = Hata Bildir
+feedback.bugreport.description = Calismayan bir sey mi buldunuz? Duzeltmemiz icin bize bildirin.
+feedback.bugreport.button.label = Hata Bildir
+feedback.bugreport.button.tooltip = Bir hata bildir
+feedback.bugreport.includeLogFile = Mevcut log dosyasini dahil et
+
+feedback.type.feedback = Geri Bildirim
+feedback.type.bugreport = Hata Raporu
+
+feedback.warning.abuse = Hata raporu ve geri bildirim ozelliginin kotuye kullanilmasi hesap askiya alinmasina yol acabilir.
+
+feedback.field.type = Tip
+feedback.field.summary = Ozet
+feedback.field.summary.placeholder = Geri bildiriminizin veya hataninizin kisa ozeti
+feedback.field.description = Aciklama
+feedback.field.description.placeholder = Geri bildiriminiz veya hata raporunuz hakkinda detayli bilgi verin
+feedback.field.attachments = Ekler
+
+feedback.attachments.addScreenshot = Ekran Goruntuleri Ekle
+feedback.attachments.addLogFile = Ekstra Log Dosyalari Ekle
+feedback.attachments.selectScreenshot = Eklemek icin ekran goruntulerini secin
+feedback.attachments.selectLogFile = Eklemek icin log dosyalarini secin
+
+feedback.submit = Gonder
+feedback.submitting = Gonderiliyor...
+
+feedback.error.summaryRequired = Lutfen bir ozet girin
+feedback.error.descriptionRequired = Lutfen bir aciklama girin
+feedback.error.unknown = Bir hata olustu. Lutfen tekrar deneyin.
+feedback.error.maxAttachments = Sadece 3 dosyaya kadar ekleyebilirsiniz
+feedback.error.fileTooLarge = "{file}" cok buyuk ({size}MB). Maksimum dosya boyutu {maxSize}
+feedback.error.invalidFileType = "{file}" desteklenen bir dosya tipi degil. Sadece .jpg, .jpeg, .png ve .log dosyalarina izin verilir
+feedback.error.fileNotFound = "{file}" bulunamadi
+feedback.error.fileError = "{file}" okunamadi
+
+feedback.success.title = Tesekkurler!
+feedback.success.feedback = Geri bildiriminiz basariyla gonderildi. Katkiniz icin tesekkur ederiz!
+feedback.success.bugreport = Hata raporunuz basariyla gonderildi. Inceleyecegiz!
+feedback.success.submitMore = Daha Fazla Gonder
+
+
+bugReportButton.tooltip = Hata veya Geri Bildirim Bildir
